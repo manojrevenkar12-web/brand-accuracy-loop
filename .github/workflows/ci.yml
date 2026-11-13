@@ -37,7 +37,7 @@ jobs:
         run: |
           docker run -d -p 8080:8080 --name api brand-accuracy-loop
           for i in $(seq 1 30); do curl -sf localhost:8080/healthz && break; sleep 1; done
-          curl -sf localhost:8080/healthz
+          curl -sf localhost:8080/healthz || (docker logs api; exit 1)
   terraform:
     runs-on: ubuntu-latest
     defaults: { run: { working-directory: infra/terraform } }

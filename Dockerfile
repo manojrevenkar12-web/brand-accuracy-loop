@@ -8,6 +8,7 @@ COPY config ./config
 COPY models ./models
 COPY examples ./examples
 ENV PYTHONUNBUFFERED=1 \
+    ACCURACY_ROOT=/app \
     MODEL_PATH=/app/models/verifier.json \
     VAULT_PATH=/app/examples/vault.json
 USER app

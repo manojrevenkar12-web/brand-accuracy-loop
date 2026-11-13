@@ -1,9 +1,11 @@
 from __future__ import annotations
 
+import os
 import tomllib
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
+# the checkout in development; the image sets ACCURACY_ROOT, because an installed package lives in site-packages
+ROOT = Path(os.environ.get("ACCURACY_ROOT", Path(__file__).resolve().parents[2]))
 
 
 def load(path: Path | None = None) -> dict:
