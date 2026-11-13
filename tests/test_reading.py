@@ -26,6 +26,11 @@ def test_money_and_markets():
     assert [(v.amount, v.unit, v.qualifier) for v in de] == [(1300, "EUR", "lt"), (279, "EUR", "approx")]
 
 
+def test_german_thin_space_thousands():
+    # found by the held-out run: "1\u202f999 €" was read as 999 €
+    assert [v.amount for v in find_values("Das E-Bike kostet 1\u202f999 € oder 2\u00a0099 Euro.", "de")] == [1999, 2099]
+
+
 def test_units_convert_to_canonical():
     vals = find_values("A range of 60 miles, a 2-year warranty and 3.1 lbs.", "en")
     got = {v.unit: (round(v.amount, 2), v.converted) for v in vals}

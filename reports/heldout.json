@@ -1,0 +1,793 @@
+{
+ "world": "heldout",
+ "counts": {
+  "answers": 1600,
+  "engines": [
+   "answer",
+   "assistant",
+   "chat",
+   "overview",
+   "shopping"
+  ],
+  "claims": 5285,
+  "labels": {
+   "accurate": 4210,
+   "inaccurate": 585,
+   "unverifiable": 490
+  },
+  "german_claims": 2125
+ },
+ "extraction": {
+  "recall": 97.09,
+  "precision": 100.0
+ },
+ "verification": {
+  "string_match": {
+   "accuracy": 70.97,
+   "wrong_claims_caught": 89.57,
+   "flag_precision": 28.13,
+   "false_alarms_per_1k_claims": 253.4,
+   "error_by_language": {
+    "de": 26.45,
+    "en": 30.76
+   },
+   "error_by_engine": {
+    "answer": 26.77,
+    "assistant": 31.5,
+    "chat": 29.04,
+    "overview": 25.26,
+    "shopping": 32.54
+   },
+   "sent_to_people": 0.0,
+   "review_eur_per_1k_answers": 0.0,
+   "confusion": {
+    "accurate->accurate": 2748,
+    "accurate->inaccurate": 1339,
+    "accurate->missed": 123,
+    "inaccurate->accurate": 41,
+    "inaccurate->inaccurate": 524,
+    "inaccurate->missed": 20,
+    "unverifiable->missed": 11,
+    "unverifiable->unverifiable": 479
+   },
+   "false_alarm_kinds": {
+    "bound": 607,
+    "converted unit": 328,
+    "hedged number": 320,
+    "other": 84
+   }
+  },
+  "rules": {
+   "accuracy": 94.4,
+   "wrong_claims_caught": 96.58,
+   "flag_precision": 79.92,
+   "false_alarms_per_1k_claims": 26.9,
+   "error_by_language": {
+    "de": 6.96,
+    "en": 4.68
+   },
+   "error_by_engine": {
+    "answer": 5.58,
+    "assistant": 6.15,
+    "chat": 6.05,
+    "overview": 5.2,
+    "shopping": 5.01
+   },
+   "sent_to_people": 0.0,
+   "review_eur_per_1k_answers": 0.0,
+   "confusion": {
+    "accurate->accurate": 3945,
+    "accurate->inaccurate": 142,
+    "accurate->missed": 123,
+    "inaccurate->inaccurate": 565,
+    "inaccurate->missed": 20,
+    "unverifiable->missed": 11,
+    "unverifiable->unverifiable": 479
+   },
+   "false_alarm_kinds": {
+    "bound": 1,
+    "hedged number": 52,
+    "other": 83,
+    "price in another market's currency": 6
+   }
+  },
+  "trained": {
+   "accuracy": 95.44,
+   "wrong_claims_caught": 96.58,
+   "flag_precision": 86.66,
+   "false_alarms_per_1k_claims": 16.5,
+   "error_by_language": {
+    "de": 5.93,
+    "en": 3.64
+   },
+   "error_by_engine": {
+    "answer": 4.45,
+    "assistant": 5.01,
+    "chat": 4.82,
+    "overview": 4.26,
+    "shopping": 4.26
+   },
+   "sent_to_people": 0.0,
+   "review_eur_per_1k_answers": 0.0,
+   "confusion": {
+    "accurate->accurate": 4000,
+    "accurate->inaccurate": 87,
+    "accurate->missed": 123,
+    "inaccurate->inaccurate": 565,
+    "inaccurate->missed": 20,
+    "unverifiable->missed": 11,
+    "unverifiable->unverifiable": 479
+   },
+   "false_alarm_kinds": {
+    "bound": 4,
+    "other": 83
+   }
+  },
+  "trained_review": {
+   "accuracy": 95.52,
+   "wrong_claims_caught": 96.58,
+   "flag_precision": 87.19,
+   "false_alarms_per_1k_claims": 15.7,
+   "error_by_language": {
+    "de": 5.88,
+    "en": 3.54
+   },
+   "error_by_engine": {
+    "answer": 4.45,
+    "assistant": 4.73,
+    "chat": 4.73,
+    "overview": 4.26,
+    "shopping": 4.26
+   },
+   "sent_to_people": 0.44,
+   "review_eur_per_1k_answers": 16.17,
+   "confusion": {
+    "accurate->accurate": 4004,
+    "accurate->inaccurate": 83,
+    "accurate->missed": 123,
+    "inaccurate->inaccurate": 565,
+    "inaccurate->missed": 20,
+    "unverifiable->missed": 11,
+    "unverifiable->unverifiable": 479
+   },
+   "false_alarm_kinds": {
+    "other": 83
+   }
+  }
+ },
+ "llm_judge_estimate": {
+  "input_tokens_per_claim": 193.8,
+  "usd_per_1k_answers": 4.75
+ },
+ "attribution": {
+  "first_citation": {
+   "cause_found": 13.81,
+   "innocent_page_blamed": 76.11,
+   "engine_memory_blamed_on_a_page": 95.63,
+   "wrong_claims": 565
+  },
+  "closest_citation": {
+   "cause_found": 21.42,
+   "innocent_page_blamed": 67.08,
+   "engine_memory_blamed_on_a_page": 95.63,
+   "wrong_claims": 565
+  },
+  "value_match": {
+   "cause_found": 78.76,
+   "innocent_page_blamed": 0.0,
+   "engine_memory_blamed_on_a_page": 39.81,
+   "wrong_claims": 565
+  }
+ },
+ "loop": {
+  "none": {
+   "weekly_wrong_rate": [
+    11.07,
+    11.43,
+    10.71,
+    10.69,
+    10.8,
+    10.84,
+    10.88,
+    11.13
+   ],
+   "fixes_landed": 0,
+   "tickets": {}
+  },
+  "first_citation": {
+   "weekly_wrong_rate": [
+    11.07,
+    10.9,
+    9.4,
+    9.2,
+    9.52,
+    9.04,
+    8.14,
+    7.68
+   ],
+   "fixes_landed": 116,
+   "tickets": {
+    "brand_page": 27,
+    "publisher": 183
+   }
+  },
+  "closest_citation": {
+   "weekly_wrong_rate": [
+    11.07,
+    10.54,
+    9.29,
+    8.46,
+    8.1,
+    7.76,
+    7.57,
+    7.25
+   ],
+   "fixes_landed": 129,
+   "tickets": {
+    "brand_page": 38,
+    "publisher": 172
+   }
+  },
+  "value_match": {
+   "weekly_wrong_rate": [
+    11.07,
+    9.9,
+    8.27,
+    7.17,
+    6.64,
+    6.05,
+    5.66,
+    4.94
+   ],
+   "fixes_landed": 86,
+   "tickets": {
+    "engine_feed": 47,
+    "publisher": 163
+   }
+  }
+ },
+ "loop_settings": {
+  "weeks": 8,
+  "fixes_per_week": 30
+ },
+ "examples": [
+  {
+   "id": "w0-eval0-assistant",
+   "engine": "assistant",
+   "locale": "de-DE",
+   "text": "Hier das Wichtigste im Überblick. Rhoari H41 Air schafft mit einer Ladung eine Reichweite von etwa 120 km. Das E-Bike bringt beim Gewicht bis zu 22 kg auf die Waage. Gravra V28 Pro hat eine Reichweite von 45 km. Das E-Bike bringt beim Gewicht 19,3 kg auf die Waage. Insgesamt eine solide Wahl.",
+   "citations": [
+    "https://forum-de.example/rhoari-h41-air-326",
+    "https://reviewdesk.example/rhoari-h41-air-324",
+    "https://techblatt.example/rhoari-h41-air-325",
+    "https://kaufberater.example/gravra-v28-pro-51"
+   ],
+   "claims": [
+    {
+     "start": 99,
+     "end": 105,
+     "attribute": "range",
+     "truth": "accurate",
+     "verdict": "accurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.0214,
+     "verified": "115 km",
+     "reasons": [
+      "hedged, within 10 % of the verified value (points to right)",
+      "hedged, within 12 % of the local verified value (points to right)",
+      "hedged, within 5 % of the verified value (points to right)"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 145,
+     "end": 150,
+     "attribute": "weight",
+     "truth": "accurate",
+     "verdict": "accurate",
+     "rules": "accurate",
+     "p_wrong": 0.0014,
+     "verified": "22 kg",
+     "reasons": [
+      "hedged, within 10 % of the verified value (points to right)",
+      "hedged, within 12 % of the local verified value (points to right)",
+      "hedged, within 5 % of the verified value (points to right)"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 205,
+     "end": 210,
+     "attribute": "range",
+     "truth": "unverifiable",
+     "verdict": "unverifiable",
+     "rules": "unverifiable",
+     "p_wrong": null,
+     "verified": "",
+     "reasons": [
+      "the brand has not verified this fact"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 243,
+     "end": 250,
+     "attribute": "weight",
+     "truth": "accurate",
+     "verdict": "accurate",
+     "rules": "accurate",
+     "p_wrong": 0.0009,
+     "verified": "19.3 kg",
+     "reasons": [
+      "exact, within 2 % of the verified value (points to right)",
+      "exact, within 3 % of the verified value (points to right)",
+      "exact, within 5 % of the verified value (points to right)"
+     ],
+     "source": null,
+     "source_why": null
+    }
+   ]
+  },
+  {
+   "id": "w0-eval0-shopping",
+   "engine": "shopping",
+   "locale": "de-DE",
+   "text": "Kurz zusammengefasst: Rhoari H41 Air schafft mit einer Ladung eine Reichweite von 115 km und bringt beim Gewicht über 25 kg auf die Waage. Gravra V28 Pro schafft mit einer Ladung eine Reichweite von mehr als 40 km. Das E-Bike wiegt 19,3 kg. Insgesamt eine solide Wahl.",
+   "citations": [
+    "https://best-picks.example/rhoari-h41-air-328",
+    "https://forum-de.example/rhoari-h41-air-326",
+    "https://techblatt.example/rhoari-h41-air-325",
+    "https://kaufberater.example/gravra-v28-pro-51",
+    "https://dealhub.example/rhoari-h41-air-327"
+   ],
+   "claims": [
+    {
+     "start": 82,
+     "end": 88,
+     "attribute": "range",
+     "truth": "accurate",
+     "verdict": "accurate",
+     "rules": "accurate",
+     "p_wrong": 0.0009,
+     "verified": "115 km",
+     "reasons": [
+      "exact, within 2 % of the verified value (points to right)",
+      "exact, within 3 % of the verified value (points to right)",
+      "exact, within 5 % of the verified value (points to right)"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 118,
+     "end": 123,
+     "attribute": "weight",
+     "truth": "inaccurate",
+     "verdict": "inaccurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.9545,
+     "verified": "22 kg",
+     "reasons": [
+      "stated as a bound (under, über) (points to right)",
+      "the bound does not hold for the verified value (points to wrong)",
+      "the bound does not hold for the local verified value (points to wrong)"
+     ],
+     "source": "model",
+     "source_why": "no page says this; the engine answered from memory"
+    },
+    {
+     "start": 208,
+     "end": 213,
+     "attribute": "range",
+     "truth": "unverifiable",
+     "verdict": "unverifiable",
+     "rules": "unverifiable",
+     "p_wrong": null,
+     "verified": "",
+     "reasons": [
+      "the brand has not verified this fact"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 232,
+     "end": 239,
+     "attribute": "weight",
+     "truth": "accurate",
+     "verdict": "accurate",
+     "rules": "accurate",
+     "p_wrong": 0.0009,
+     "verified": "19.3 kg",
+     "reasons": [
+      "exact, within 2 % of the verified value (points to right)",
+      "exact, within 3 % of the verified value (points to right)",
+      "exact, within 5 % of the verified value (points to right)"
+     ],
+     "source": null,
+     "source_why": null
+    }
+   ]
+  },
+  {
+   "id": "w0-eval4-assistant",
+   "engine": "assistant",
+   "locale": "en-DE",
+   "text": "Here is what stands out. The Daxo N29 Pro is guaranteed for 12 months. It retails at $389. It does not have active noise cancelling.",
+   "citations": [
+    "https://best-picks.example/daxo-n29-pro-7",
+    "https://talkboard.example/daxo-n29-pro-4"
+   ],
+   "claims": [
+    {
+     "start": 60,
+     "end": 69,
+     "attribute": "warranty",
+     "truth": "inaccurate",
+     "verdict": "inaccurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.9851,
+     "verified": "36 months",
+     "reasons": [
+      "distance from the verified value (points to wrong)",
+      "distance from the verified value in the market asked about (points to wrong)"
+     ],
+     "source": "https://best-picks.example/daxo-n29-pro-7",
+     "source_why": "cited, and says the same wrong value"
+    },
+    {
+     "start": 85,
+     "end": 89,
+     "attribute": "price",
+     "truth": "accurate",
+     "verdict": "accurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.0061,
+     "verified": "$389 / €369",
+     "reasons": [
+      "exact, within 2 % of the verified value (points to right)",
+      "exact, within 3 % of the verified value (points to right)",
+      "exact, within 5 % of the verified value (points to right)"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 115,
+     "end": 131,
+     "attribute": "active noise cancelling",
+     "truth": "accurate",
+     "verdict": "accurate",
+     "rules": "accurate",
+     "p_wrong": 0.0223,
+     "verified": "no",
+     "reasons": [
+      "the yes/no feature matches the vault (points to right)",
+      "a yes/no feature (points to right)"
+     ],
+     "source": null,
+     "source_why": null
+    }
+   ]
+  },
+  {
+   "id": "w0-eval8-shopping",
+   "engine": "shopping",
+   "locale": "de-DE",
+   "text": "Kurz zusammengefasst: Fenost Q62 Pro kommt mit unter 1,5 Jahre Garantie. Das Gerät ist ab 289 € zu haben. Daxelle X92 Pro hat mehr als 35 Monate Garantie. Das Gerät ist ab über 250 Euro zu haben.",
+   "citations": [
+    "https://preisradar.example/fenost-q62-pro-296",
+    "https://forum-de.example/daxelle-x92-pro-111",
+    "https://fenost.example/de/fenost-q62-pro",
+    "https://techblatt.example/fenost-q62-pro-291",
+    "https://dealhub.example/daxelle-x92-pro-112"
+   ],
+   "claims": [
+    {
+     "start": 53,
+     "end": 62,
+     "attribute": "warranty",
+     "truth": "accurate",
+     "verdict": "accurate",
+     "rules": "accurate",
+     "p_wrong": 0.0093,
+     "verified": "12 months",
+     "reasons": [
+      "the bound holds for the verified value (points to right)",
+      "the bound holds for the local verified value (points to right)",
+      "stated as a bound (under, über) (points to right)"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 90,
+     "end": 95,
+     "attribute": "price",
+     "truth": "inaccurate",
+     "verdict": "inaccurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.9689,
+     "verified": "$409 / €369",
+     "reasons": [
+      "a price or fee (points to wrong)",
+      "distance from the verified value (points to wrong)",
+      "distance from the verified value in the market asked about (points to wrong)"
+     ],
+     "source": "https://preisradar.example/fenost-q62-pro-296",
+     "source_why": "cited, and says the same wrong value"
+    },
+    {
+     "start": 135,
+     "end": 144,
+     "attribute": "warranty",
+     "truth": "unverifiable",
+     "verdict": "unverifiable",
+     "rules": "unverifiable",
+     "p_wrong": null,
+     "verified": "",
+     "reasons": [
+      "the brand has not verified this fact"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 177,
+     "end": 185,
+     "attribute": "price",
+     "truth": "accurate",
+     "verdict": "accurate",
+     "rules": "accurate",
+     "p_wrong": 0.005,
+     "verified": "$289 / €259",
+     "reasons": [
+      "the bound holds for the verified value (points to right)",
+      "the bound holds for the local verified value (points to right)",
+      "stated as a bound (under, über) (points to right)"
+     ],
+     "source": null,
+     "source_why": null
+    }
+   ]
+  },
+  {
+   "id": "w0-eval25-assistant",
+   "engine": "assistant",
+   "locale": "en-US",
+   "text": "Short answer below. The Corova Z83 Pro costs $1,349. The Corova Z83 Pro has a 15-bar pump. It is covered by a warranty of 60 months. It holds roughly 1.2 liters in its water tank.",
+   "citations": [
+    "https://reviewdesk.example/corova-z83-pro-150",
+    "https://talkboard.example/corova-z83-pro-151"
+   ],
+   "claims": [
+    {
+     "start": 45,
+     "end": 51,
+     "attribute": "price",
+     "truth": "inaccurate",
+     "verdict": "inaccurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.989,
+     "verified": "$1,099 / €1,099",
+     "reasons": [
+      "equals the value before the last verified change (points to wrong)",
+      "a price or fee (points to wrong)",
+      "distance from the verified value (points to wrong)"
+     ],
+     "source": "https://reviewdesk.example/corova-z83-pro-150",
+     "source_why": "cited, and says the same wrong value"
+    },
+    {
+     "start": 78,
+     "end": 84,
+     "attribute": "pump pressure",
+     "truth": "inaccurate",
+     "verdict": "inaccurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.9856,
+     "verified": "20 bar",
+     "reasons": [
+      "equals the value before the last verified change (points to wrong)",
+      "distance from the verified value (points to wrong)",
+      "distance from the verified value in the market asked about (points to wrong)"
+     ],
+     "source": "https://reviewdesk.example/corova-z83-pro-150",
+     "source_why": "cited, and says the same wrong value"
+    },
+    {
+     "start": 122,
+     "end": 131,
+     "attribute": "warranty",
+     "truth": "inaccurate",
+     "verdict": "inaccurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.9851,
+     "verified": "36 months",
+     "reasons": [
+      "distance from the verified value (points to wrong)",
+      "distance from the verified value in the market asked about (points to wrong)"
+     ],
+     "source": "https://reviewdesk.example/corova-z83-pro-150",
+     "source_why": "cited, and says the same wrong value"
+    },
+    {
+     "start": 150,
+     "end": 160,
+     "attribute": "water tank",
+     "truth": "inaccurate",
+     "verdict": "inaccurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.9733,
+     "verified": "1.6 l",
+     "reasons": [
+      "hedged (about, rund, up to) (points to wrong)",
+      "distance from the verified value (points to wrong)",
+      "distance from the verified value in the market asked about (points to wrong)"
+     ],
+     "source": "https://testheft.example/corova-z83-pro-149",
+     "source_why": "says the same wrong value"
+    }
+   ]
+  },
+  {
+   "id": "w0-eval31-chat",
+   "engine": "chat",
+   "locale": "en-US",
+   "text": "Here is a quick overview. The V65 sells for $709. It has an about 12-hour battery.",
+   "citations": [
+    "https://testlab.example/corari-v65-s-308"
+   ],
+   "claims": [
+    {
+     "start": 44,
+     "end": 48,
+     "attribute": "price",
+     "truth": "unverifiable",
+     "verdict": "unverifiable",
+     "rules": "unverifiable",
+     "p_wrong": null,
+     "verified": "",
+     "reasons": [
+      "the brand has not verified this fact"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 66,
+     "end": 73,
+     "attribute": "battery life",
+     "truth": "inaccurate",
+     "verdict": "inaccurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.9819,
+     "verified": "20 hours",
+     "reasons": [
+      "distance from the verified value (points to wrong)",
+      "distance from the verified value in the market asked about (points to wrong)",
+      "hedged (about, rund, up to) (points to wrong)"
+     ],
+     "source": "model",
+     "source_why": "no page says this; the engine answered from memory"
+    }
+   ]
+  }
+ ],
+ "tickets": [
+  {
+   "kind": "publisher",
+   "product": "Elyost B34",
+   "attribute": "warranty",
+   "wrong_claims": 23,
+   "engines": [
+    "answer",
+    "assistant",
+    "chat",
+    "overview",
+    "shopping"
+   ],
+   "draft": "Hello, your page https://best-picks.example/elyost-b34-26 gives a warranty for Elyost B34 that differs from the manufacturer's verified value (36 months). AI assistants are repeating it (23 answers this week). Could you update it? Source: Elyost product data."
+  },
+  {
+   "kind": "publisher",
+   "product": "Rhoant T92 Air",
+   "attribute": "warranty",
+   "wrong_claims": 22,
+   "engines": [
+    "answer",
+    "assistant",
+    "chat",
+    "overview",
+    "shopping"
+   ],
+   "draft": "Hello, your page https://kaufberater.example/rhoant-t92-air-357 gives a warranty for Rhoant T92 Air that differs from the manufacturer's verified value (24 months). AI assistants are repeating it (22 answers this week). Could you update it? Source: Rhoant product data."
+  },
+  {
+   "kind": "publisher",
+   "product": "Rhoari H41 Air",
+   "attribute": "warranty",
+   "wrong_claims": 19,
+   "engines": [
+    "answer",
+    "assistant",
+    "chat",
+    "overview",
+    "shopping"
+   ],
+   "draft": "Hello, your page https://best-picks.example/rhoari-h41-air-328 gives a warranty for Rhoari H41 Air that differs from the manufacturer's verified value (36 months). AI assistants are repeating it (19 answers this week). Could you update it? Source: Rhoari product data."
+  },
+  {
+   "kind": "publisher",
+   "product": "Corova A50 Max",
+   "attribute": "warranty",
+   "wrong_claims": 17,
+   "engines": [
+    "answer",
+    "assistant",
+    "chat",
+    "overview",
+    "shopping"
+   ],
+   "draft": "Hello, your page https://testheft.example/corova-a50-max-163 gives a warranty for Corova A50 Max that differs from the manufacturer's verified value (36 months). AI assistants are repeating it (17 answers this week). Could you update it? Source: Corova product data."
+  },
+  {
+   "kind": "publisher",
+   "product": "Corova Z83 Pro",
+   "attribute": "warranty",
+   "wrong_claims": 16,
+   "engines": [
+    "answer",
+    "assistant",
+    "chat",
+    "overview",
+    "shopping"
+   ],
+   "draft": "Hello, your page https://reviewdesk.example/corova-z83-pro-150 gives a warranty for Corova Z83 Pro that differs from the manufacturer's verified value (36 months). AI assistants are repeating it (16 answers this week). Could you update it? Source: Corova product data."
+  },
+  {
+   "kind": "publisher",
+   "product": "Venyn N65 S",
+   "attribute": "tank",
+   "wrong_claims": 11,
+   "engines": [
+    "assistant",
+    "chat",
+    "overview",
+    "shopping"
+   ],
+   "draft": "Hello, your page https://gearwire.example/venyn-n65-s-261 gives a water tank for Venyn N65 S that differs from the manufacturer's verified value (1.4 l). AI assistants are repeating it (11 answers this week). Could you update it? Source: Venyn product data."
+  },
+  {
+   "kind": "publisher",
+   "product": "Maris Everyday Card",
+   "attribute": "apr",
+   "wrong_claims": 11,
+   "engines": [
+    "answer",
+    "assistant",
+    "chat",
+    "overview",
+    "shopping"
+   ],
+   "draft": "Hello, your page https://kartenvergleich.example/maris-everyday-card-80 gives a APR for Maris Everyday Card that differs from the manufacturer's verified value (20.99 %). AI assistants are repeating it (11 answers this week). Could you update it? Source: Maris product data."
+  },
+  {
+   "kind": "publisher",
+   "product": "Corant T84",
+   "attribute": "warranty",
+   "wrong_claims": 11,
+   "engines": [
+    "answer",
+    "assistant",
+    "chat",
+    "overview",
+    "shopping"
+   ],
+   "draft": "Hello, your page https://testheft.example/corant-t84-491 gives a warranty for Corant T84 that differs from the manufacturer's verified value (36 months). AI assistants are repeating it (11 answers this week). Could you update it? Source: Corant product data."
+  }
+ ]
+}

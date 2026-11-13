@@ -185,8 +185,14 @@ With the same {budget} tickets a week, value-matched diagnosis took the share of
 {hl["value_match"]["weekly_wrong_rate"][0]}% to {hl["value_match"]["weekly_wrong_rate"][-1]}%; blaming the first
 citation ended at {hl["first_citation"]["weekly_wrong_rate"][-1]}%. The trained verifier caught
 {hv["trained"]["wrong_claims_caught"]}% of wrong claims with {n(hv["trained"]["false_alarms_per_1k_claims"])} false
-alarms per 1,000 claims (rules: {n(hv["rules"]["false_alarms_per_1k_claims"])}); it blamed a correct page
-{ha["value_match"]["innocent_page_blamed"]}% of the time.
+alarms per 1,000 claims (rules: {n(hv["rules"]["false_alarms_per_1k_claims"])}). Value-matched diagnosis blamed a
+correct page {ha["value_match"]["innocent_page_blamed"]}% of the time.
+
+What the held-out run found: most of the trained verifier's false alarms there came from the extractor, not the
+verifier. German prices written with a thin space as the thousands separator ("1\u202f999 €", as DIN 5008 allows)
+were read as 999 €, and the verifier rightly called 999 € wrong. Most missed claims were card percentages phrased
+without a cue word ("gives 2% on every purchase"). The number format is fixed since, with a test; the cue words are
+not. The held-out numbers above are as they first came out.
 """
     else:
         heldout = "## Held-out world\n\nNot run yet: `python3 scripts/evaluate.py --heldout` (once).\n"
@@ -317,7 +323,7 @@ flowchart LR
 
 ```bash
 pip install -e '.[dev]'
-python -m pytest -q                       # 29 tests, about 4 s
+python -m pytest -q                       # 30 tests, about 4 s
 python3 scripts/evaluate.py               # dev world, about 45 s; trains the verifier, writes reports/dev.json
 python3 scripts/readme.py                 # this README and the console data
 uvicorn accuracy.service.main:app         # the API with the example vault

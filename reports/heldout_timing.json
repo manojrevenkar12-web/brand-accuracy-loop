@@ -1,0 +1,18 @@
+{
+ "throughput": {
+  "answers_per_cpu_second": 1895,
+  "vcpus_for_5m_answers_a_day": 0.03
+ },
+ "ms_per_answer": {
+  "string_match": 0.581,
+  "rules": 0.314,
+  "trained": 0.436,
+  "trained_review": 0.457
+ },
+ "compute_usd_per_1k_answers": {
+  "string_match": 1e-05,
+  "rules": 0.0,
+  "trained": 0.0,
+  "trained_review": 1e-05
+ }
+}

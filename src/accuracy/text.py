@@ -146,7 +146,7 @@ NEGATIONS = (
 )
 
 _EN_NUM = r"\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+(?:\.\d+)?"
-_DE_NUM = r"\d{1,3}(?:\.\d{3})+(?:,\d+)?|\d+(?:,\d+)?"
+_DE_NUM = r"\d{1,3}(?:[.\u202f\u00a0]\d{3})+(?:,\d+)?|\d+(?:,\d+)?"  # 1.299 or 1\u202f299 (DIN 5008)
 _WORDS = "|".join(sorted(NUMBER_WORDS, key=len, reverse=True))
 _UNIT_ALT = "|".join(re.escape(u) for u in sorted(UNITS, key=len, reverse=True))
 
@@ -159,6 +159,7 @@ def parse_number(token: str, lang: str) -> float:
     t = token.strip()
     if t.lower() in NUMBER_WORDS:
         return float(NUMBER_WORDS[t.lower()])
+    t = t.replace("\u202f", "").replace("\u00a0", "")
     if lang == "de":
         t = t.replace(".", "").replace(",", ".")
     else:

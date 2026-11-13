@@ -118,9 +118,45 @@ Tickets built on the first citation reach publishers whose pages were right, so 
 8 weeks the share of wrong claims is 4.24% with value-matched diagnosis, 7.75% with the first
 citation and 9.96% with no corrections.
 
-## Held-out world
+## Held-out world (run once)
 
-Not run yet: `python3 scripts/evaluate.py --heldout` (once).
+A second world with other brands, a fifth engine that cites less and reads more forums, 40 % German prompts,
+and phrasings the extractor was never written for. It ran once, with the verifier trained on the dev world and no
+change after (`config/heldout.lock`). 1,600 answers, 5,285 claims;
+the extractor found 97.09% of them.
+
+| Design | Claims judged right | Wrong claims caught | Flags that were right | False alarms per 1,000 claims | Error, English | Error, German | Sent to a person |
+|---|--:|--:|--:|--:|--:|--:|--:|
+| String match (what simple monitors do) | 70.97% | 89.57% | 28.13% | 253 | 30.76% | 26.45% | 0.0% |
+| Hand-written rules | 94.4% | 96.58% | 79.92% | 26.9 | 4.68% | 6.96% | 0.0% |
+| Trained verifier | 95.44% | 96.58% | 86.66% | 16.5 | 3.64% | 5.93% | 0.0% |
+| Trained verifier, doubtful claims to a person | 95.52% | 96.58% | 87.19% | 15.7 | 3.54% | 5.88% | 0.44% |
+
+| Method | Cause found | Blamed a page that was right | Engine memory blamed on a page |
+|---|--:|--:|--:|
+| Blame the first citation | 13.81% | 76.11% | 95.63% |
+| Blame the cited page closest to the answer | 21.42% | 67.08% | 95.63% |
+| Find the page that says the same wrong value | 78.76% | 0.0% | 39.81% |
+
+| Diagnosis behind the tickets | Wrong claims, week 1 | Wrong claims, last week | Tickets sent | Fixes that landed |
+|---|--:|--:|--:|--:|
+| No corrections | 11.07% | 11.13% | 0 | 0 |
+| Blame the first citation | 11.07% | 7.68% | 210 | 116 |
+| Blame the cited page closest to the answer | 11.07% | 7.25% | 210 | 129 |
+| Find the page that says the same wrong value | 11.07% | 4.94% | 210 | 86 |
+
+With the same 30 tickets a week, value-matched diagnosis took the share of wrong claims from
+11.07% to 4.94%; blaming the first
+citation ended at 7.68%. The trained verifier caught
+96.58% of wrong claims with 16.5 false
+alarms per 1,000 claims (rules: 26.9). Value-matched diagnosis blamed a
+correct page 0.0% of the time.
+
+What the held-out run found: most of the trained verifier's false alarms there came from the extractor, not the
+verifier. German prices written with a thin space as the thousands separator ("1 999 €", as DIN 5008 allows)
+were read as 999 €, and the verifier rightly called 999 € wrong. Most missed claims were card percentages phrased
+without a cue word ("gives 2% on every purchase"). The number format is fixed since, with a test; the cue words are
+not. The held-out numbers above are as they first came out.
 
 ## How it works
 
@@ -153,7 +189,7 @@ flowchart LR
 
 ```bash
 pip install -e '.[dev]'
-python -m pytest -q                       # 29 tests, about 4 s
+python -m pytest -q                       # 30 tests, about 4 s
 python3 scripts/evaluate.py               # dev world, about 45 s; trains the verifier, writes reports/dev.json
 python3 scripts/readme.py                 # this README and the console data
 uvicorn accuracy.service.main:app         # the API with the example vault

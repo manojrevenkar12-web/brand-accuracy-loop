@@ -1,5 +1,5 @@
 {
- "generated_from": "reports/dev.json",
+ "generated_from": "reports/dev.json and reports/heldout.json",
  "counts": {
   "answers": 1280,
   "engines": [
@@ -750,5 +750,13 @@
    "draft": "Hello, your page https://techblatt.example/torex-v19-air-219 gives a warranty for Torex V19 Air that differs from the manufacturer's verified value (36 months). AI assistants are repeating it (7 answers this week). Could you update it? Source: Torex product data."
   }
  ],
- "heldout": null
+ "heldout": {
+  "answers": 1600,
+  "claims": 5285,
+  "trained": 95.44,
+  "false_alarms": 16.5,
+  "rules_false_alarms": 26.9,
+  "wrong_after": 4.94,
+  "wrong_before": 11.07
+ }
 }
