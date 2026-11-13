@@ -1,0 +1,49 @@
+@import "@fontsource-variable/bricolage-grotesque/opsz.css";
+
+:root {
+  /* paper and ink */
+  --paper: #eef1ec;
+  --sheet: #fbfcfa;
+  --ink: #17201c;
+  --ink-soft: #55605a;
+  --rule: #cfd6d0;
+  --tint: #e2e8e1;
+
+  /* verdicts: a proofreader's marks */
+  --wrong: #b3321f;
+  --wrong-wash: #f6e1dc;
+  --right: #1d6a4f;
+  --right-wash: #dcefe6;
+  --unverified: #7d7259;
+  --review: #946100;
+  --review-wash: #f5ead2;
+
+  /* series in the loop chart, quietest to loudest */
+  --series-0: #9aa49d;
+  --series-1: #6f8f9c;
+  --series-2: #3f6b80;
+  --series-3: var(--right);
+
+  --font: "Bricolage Grotesque Variable", system-ui, sans-serif;
+  --step--1: 0.84rem;
+  --step-0: 1rem;
+  --step-1: 1.25rem;
+  --step-2: 1.6rem;
+  --step-3: clamp(2.2rem, 5vw, 3.6rem);
+  --answer: clamp(1.15rem, 2vw, 1.4rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2.5rem;
+  --space-7: 4rem;
+
+  --measure: 68ch;
+  --page: 1120px;
+  --radius-sheet: 2px;
+  --radius-control: 999px;
+  --mark-weight: 2px;
+  --focus: 3px solid #2b5f8a;
+}

@@ -1,0 +1,754 @@
+{
+ "generated_from": "reports/dev.json",
+ "counts": {
+  "answers": 1280,
+  "engines": [
+   "answer",
+   "chat",
+   "overview",
+   "shopping"
+  ],
+  "claims": 4336,
+  "labels": {
+   "accurate": 3476,
+   "inaccurate": 412,
+   "unverifiable": 448
+  },
+  "german_claims": 1288
+ },
+ "designs": [
+  "String match (what simple monitors do)",
+  "Hand-written rules",
+  "Trained verifier",
+  "Trained verifier, doubtful claims to a person"
+ ],
+ "ledger": [
+  {
+   "label": "Claims judged right",
+   "values": [
+    "74.08%",
+    "98.09%",
+    "99.95%",
+    "100.0%"
+   ]
+  },
+  {
+   "label": "Wrong claims caught",
+   "values": [
+    "91.02%",
+    "100.0%",
+    "99.51%",
+    "100.0%"
+   ]
+  },
+  {
+   "label": "False alarms per 1,000 claims",
+   "values": [
+    "251",
+    "19.1",
+    "0",
+    "0"
+   ]
+  },
+  {
+   "label": "Error on German answers",
+   "values": [
+    "24.3%",
+    "0.85%",
+    "0.08%",
+    "0.0%"
+   ]
+  },
+  {
+   "label": "Sent to a person",
+   "values": [
+    "0.0%",
+    "0.0%",
+    "0.0%",
+    "0.92%"
+   ]
+  }
+ ],
+ "attribution": [
+  {
+   "method": "Blame the first citation",
+   "cause_found": 14.81,
+   "innocent_page_blamed": 75.0,
+   "engine_memory_blamed_on_a_page": 94.19,
+   "wrong_claims": 412
+  },
+  {
+   "method": "Blame the cited page closest to the answer",
+   "cause_found": 25.24,
+   "innocent_page_blamed": 60.19,
+   "engine_memory_blamed_on_a_page": 94.19,
+   "wrong_claims": 412
+  },
+  {
+   "method": "Find the page that says the same wrong value",
+   "cause_found": 80.58,
+   "innocent_page_blamed": 0.0,
+   "engine_memory_blamed_on_a_page": 36.77,
+   "wrong_claims": 412
+  }
+ ],
+ "loop": {
+  "weeks": 8,
+  "budget": 30,
+  "series": [
+   {
+    "name": "No corrections",
+    "key": "none",
+    "values": [
+     9.5,
+     10.42,
+     9.78,
+     10.08,
+     9.09,
+     10.31,
+     10.31,
+     9.96
+    ],
+    "landed": 0,
+    "sent": 0
+   },
+   {
+    "name": "Blame the first citation",
+    "key": "first_citation",
+    "values": [
+     9.5,
+     10.19,
+     9.2,
+     9.2,
+     7.91,
+     8.44,
+     8.1,
+     7.75
+    ],
+    "landed": 124,
+    "sent": 210
+   },
+   {
+    "name": "Blame the cited page closest to the answer",
+    "key": "closest_citation",
+    "values": [
+     9.5,
+     10.06,
+     8.79,
+     8.56,
+     6.94,
+     7.77,
+     7.13,
+     6.78
+    ],
+    "landed": 125,
+    "sent": 210
+   },
+   {
+    "name": "Find the page that says the same wrong value",
+    "key": "value_match",
+    "values": [
+     9.5,
+     9.41,
+     7.93,
+     6.41,
+     5.44,
+     5.7,
+     5.1,
+     4.24
+    ],
+    "landed": 102,
+    "sent": 210
+   }
+  ]
+ },
+ "examples": [
+  {
+   "id": "w0-eval8-shopping",
+   "engine": "shopping",
+   "locale": "de-DE",
+   "text": "Kurz zusammengefasst: Talant D11 Pro hält mit einer Akkuladung weniger als 20 Stunden durch. Das Gerät hat 3 Jahre Garantie. Das Gerät hat eine aktive Geräuschunterdrückung. Das Gerät liegt beim Preis bei ca. 180 Euro. Insgesamt eine solide Wahl.",
+   "citations": [
+    "https://forum-de.example/talant-d11-pro-472"
+   ],
+   "claims": [
+    {
+     "start": 75,
+     "end": 85,
+     "attribute": "battery life",
+     "truth": "inaccurate",
+     "verdict": "inaccurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.9538,
+     "verified": "23 hours",
+     "reasons": [
+      "stated as a bound (under, über) (points to right)",
+      "the bound does not hold for the verified value (points to wrong)",
+      "the bound does not hold for the local verified value (points to wrong)"
+     ],
+     "source": "model",
+     "source_why": "no page says this; the engine answered from memory"
+    },
+    {
+     "start": 107,
+     "end": 114,
+     "attribute": "warranty",
+     "truth": "accurate",
+     "verdict": "accurate",
+     "rules": "accurate",
+     "p_wrong": 0.0007,
+     "verified": "36 months",
+     "reasons": [
+      "exact, within 2 % of the verified value (points to right)",
+      "exact, within 3 % of the verified value (points to right)",
+      "exact, within 5 % of the verified value (points to right)"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 151,
+     "end": 172,
+     "attribute": "active noise cancelling",
+     "truth": "unverifiable",
+     "verdict": "unverifiable",
+     "rules": "unverifiable",
+     "p_wrong": null,
+     "verified": "",
+     "reasons": [
+      "the brand has not verified this fact"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 209,
+     "end": 217,
+     "attribute": "price",
+     "truth": "accurate",
+     "verdict": "accurate",
+     "rules": "accurate",
+     "p_wrong": 0.002,
+     "verified": "$179 / €179",
+     "reasons": [
+      "hedged, within 10 % of the verified value (points to right)",
+      "hedged, within 12 % of the local verified value (points to right)",
+      "hedged, within 5 % of the verified value (points to right)"
+     ],
+     "source": null,
+     "source_why": null
+    }
+   ]
+  },
+  {
+   "id": "w0-eval14-chat",
+   "engine": "chat",
+   "locale": "en-US",
+   "text": "Short answer below. The Lumant B25 S lasts 50 hours on a charge. The Lumant B25 S sells for about $450. The Zephelle E29 Max offers roughly 50 hours of battery life. It costs $269.",
+   "citations": [
+    "https://talkboard.example/zephelle-e29-max-179",
+    "https://reviewdesk.example/lumant-b25-s-560",
+    "https://best-picks.example/lumant-b25-s-564"
+   ],
+   "claims": [
+    {
+     "start": 43,
+     "end": 51,
+     "attribute": "battery life",
+     "truth": "inaccurate",
+     "verdict": "inaccurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.9166,
+     "verified": "46 hours",
+     "reasons": [
+      "equals the value before the last verified change (points to wrong)",
+      "exact, within 10 % of the verified value (points to right)",
+      "exact, within 15 % of the verified value (points to right)"
+     ],
+     "source": "https://reviewdesk.example/lumant-b25-s-560",
+     "source_why": "cited, and says the same wrong value"
+    },
+    {
+     "start": 98,
+     "end": 102,
+     "attribute": "price",
+     "truth": "inaccurate",
+     "verdict": "inaccurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.9699,
+     "verified": "$379 / €349",
+     "reasons": [
+      "hedged (about, rund, up to) (points to wrong)",
+      "a price or fee (points to wrong)",
+      "hedged, within 20 % of the verified value (points to right)"
+     ],
+     "source": "model",
+     "source_why": "no page says this; the engine answered from memory"
+    },
+    {
+     "start": 140,
+     "end": 148,
+     "attribute": "battery life",
+     "truth": "accurate",
+     "verdict": "accurate",
+     "rules": "accurate",
+     "p_wrong": 0.0013,
+     "verified": "50 hours",
+     "reasons": [
+      "hedged, within 10 % of the verified value (points to right)",
+      "hedged, within 12 % of the local verified value (points to right)",
+      "hedged, within 5 % of the verified value (points to right)"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 175,
+     "end": 179,
+     "attribute": "price",
+     "truth": "accurate",
+     "verdict": "accurate",
+     "rules": "accurate",
+     "p_wrong": 0.0011,
+     "verified": "$269 / €239",
+     "reasons": [
+      "exact, within 2 % of the verified value (points to right)",
+      "exact, within 3 % of the verified value (points to right)",
+      "exact, within 5 % of the verified value (points to right)"
+     ],
+     "source": null,
+     "source_why": null
+    }
+   ]
+  },
+  {
+   "id": "w0-eval15-chat",
+   "engine": "chat",
+   "locale": "en-DE",
+   "text": "Short answer below. The R78 retails at €189. The Venix R78 S comes with an up to 36-month warranty. The Lumant K14 Pro sells for €169 and is covered by a warranty of 1 years.",
+   "citations": [
+    "https://talkboard.example/lumant-k14-pro-554",
+    "https://gearwire.example/venix-r78-s-665",
+    "https://testlab.example/venix-r78-s-663",
+    "https://talkboard.example/venix-r78-s-667",
+    "https://testlab.example/lumant-k14-pro-553"
+   ],
+   "claims": [
+    {
+     "start": 39,
+     "end": 43,
+     "attribute": "price",
+     "truth": "accurate",
+     "verdict": "accurate",
+     "rules": "accurate",
+     "p_wrong": 0.0011,
+     "verified": "$189 / €189",
+     "reasons": [
+      "exact, within 2 % of the verified value (points to right)",
+      "exact, within 3 % of the verified value (points to right)",
+      "exact, within 5 % of the verified value (points to right)"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 81,
+     "end": 89,
+     "attribute": "warranty",
+     "truth": "unverifiable",
+     "verdict": "unverifiable",
+     "rules": "unverifiable",
+     "p_wrong": null,
+     "verified": "",
+     "reasons": [
+      "the brand has not verified this fact"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 129,
+     "end": 133,
+     "attribute": "price",
+     "truth": "inaccurate",
+     "verdict": "inaccurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.9728,
+     "verified": "$149 / €129",
+     "reasons": [
+      "distance from the verified value (points to wrong)",
+      "distance from the verified value in the market asked about (points to wrong)",
+      "a price or fee (points to wrong)"
+     ],
+     "source": "model",
+     "source_why": "no page says this; the engine answered from memory"
+    },
+    {
+     "start": 166,
+     "end": 173,
+     "attribute": "warranty",
+     "truth": "inaccurate",
+     "verdict": "inaccurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.9804,
+     "verified": "36 months",
+     "reasons": [
+      "distance from the verified value (points to wrong)",
+      "distance from the verified value in the market asked about (points to wrong)",
+      "written in another unit (miles, years, lbs) (points to right)"
+     ],
+     "source": "https://talkboard.example/lumant-k14-pro-554",
+     "source_why": "cited, and says the same wrong value"
+    }
+   ]
+  },
+  {
+   "id": "w0-eval15-shopping",
+   "engine": "shopping",
+   "locale": "en-DE",
+   "text": "Here is a quick overview. The Venix R78 S sells for roughly €190 and is covered by a warranty of 3 years. The Lumant K14 Pro costs about €130. It is covered by a warranty of up to 60 months.",
+   "citations": [
+    "https://testlab.example/lumant-k14-pro-553",
+    "https://testlab.example/venix-r78-s-663",
+    "https://talkboard.example/venix-r78-s-666",
+    "https://gearwire.example/venix-r78-s-665",
+    "https://lumant.example/lumant-k14-pro"
+   ],
+   "claims": [
+    {
+     "start": 60,
+     "end": 64,
+     "attribute": "price",
+     "truth": "accurate",
+     "verdict": "accurate",
+     "rules": "accurate",
+     "p_wrong": 0.0018,
+     "verified": "$189 / €189",
+     "reasons": [
+      "hedged, within 10 % of the verified value (points to right)",
+      "hedged, within 12 % of the local verified value (points to right)",
+      "hedged, within 5 % of the verified value (points to right)"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 97,
+     "end": 104,
+     "attribute": "warranty",
+     "truth": "unverifiable",
+     "verdict": "unverifiable",
+     "rules": "unverifiable",
+     "p_wrong": null,
+     "verified": "",
+     "reasons": [
+      "the brand has not verified this fact"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 137,
+     "end": 141,
+     "attribute": "price",
+     "truth": "accurate",
+     "verdict": "accurate",
+     "rules": "accurate",
+     "p_wrong": 0.0018,
+     "verified": "$149 / €129",
+     "reasons": [
+      "hedged, within 10 % of the verified value (points to right)",
+      "hedged, within 12 % of the local verified value (points to right)",
+      "hedged, within 5 % of the verified value (points to right)"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 180,
+     "end": 189,
+     "attribute": "warranty",
+     "truth": "inaccurate",
+     "verdict": "inaccurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.9971,
+     "verified": "36 months",
+     "reasons": [
+      "equals the value before the last verified change (points to wrong)",
+      "distance from the verified value (points to wrong)",
+      "distance from the verified value in the market asked about (points to wrong)"
+     ],
+     "source": "https://kaufberater.example/lumant-k14-pro-551",
+     "source_why": "says the same wrong value"
+    }
+   ]
+  },
+  {
+   "id": "w0-eval16-chat",
+   "engine": "chat",
+   "locale": "de-DE",
+   "text": "Hier das Wichtigste im Überblick. Daxix T45 Max bringt beim Gewicht bis zu 2,5 kg auf die Waage. Das Gerät ist für bis zu 1.700 € erhältlich. Das Gerät hält mit einer Akkuladung ca. 11 Stunden durch. Das Gerät hat fünf Jahre Garantie. Preise ändern sich oft, also vor dem Kauf prüfen.",
+   "citations": [
+    "https://kaufberater.example/daxix-t45-max-576",
+    "https://talkboard.example/daxix-t45-max-577",
+    "https://kaufberater.example/daxix-t45-max-575"
+   ],
+   "claims": [
+    {
+     "start": 75,
+     "end": 81,
+     "attribute": "weight",
+     "truth": "unverifiable",
+     "verdict": "unverifiable",
+     "rules": "unverifiable",
+     "p_wrong": null,
+     "verified": "",
+     "reasons": [
+      "the brand has not verified this fact"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 122,
+     "end": 129,
+     "attribute": "price",
+     "truth": "accurate",
+     "verdict": "accurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.0107,
+     "verified": "$1,899 / €1,749",
+     "reasons": [
+      "hedged, within 10 % of the verified value (points to right)",
+      "hedged, within 12 % of the local verified value (points to right)",
+      "hedged, within 5 % of the verified value (points to right)"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 182,
+     "end": 192,
+     "attribute": "battery life",
+     "truth": "inaccurate",
+     "verdict": "inaccurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.9742,
+     "verified": "9 hours",
+     "reasons": [
+      "hedged (about, rund, up to) (points to wrong)",
+      "distance from the verified value (points to wrong)",
+      "distance from the verified value in the market asked about (points to wrong)"
+     ],
+     "source": "https://kaufberater.example/daxix-t45-max-575",
+     "source_why": "cited, and says the same wrong value"
+    },
+    {
+     "start": 214,
+     "end": 224,
+     "attribute": "warranty",
+     "truth": "inaccurate",
+     "verdict": "inaccurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.9994,
+     "verified": "24 months",
+     "reasons": [
+      "distance from the verified value (points to wrong)",
+      "distance from the verified value in the market asked about (points to wrong)",
+      "equals the value before the last verified change (points to wrong)"
+     ],
+     "source": "https://kaufberater.example/daxix-t45-max-576",
+     "source_why": "cited, and says the same wrong value"
+    }
+   ]
+  },
+  {
+   "id": "w0-eval20-answer",
+   "engine": "answer",
+   "locale": "en-US",
+   "text": "Here is what stands out. The Sonoum S41 Pro holds 2 liters in its water tank. It sells for around $1,100. It comes with a 2-year warranty. It pumps at 9 bar of pressure.",
+   "citations": [
+    "https://testlab.example/sonoum-s41-pro-62",
+    "https://gearwire.example/sonoum-s41-pro-63",
+    "https://sonoum.example/sonoum-s41-pro",
+    "https://talkboard.example/sonoum-s41-pro-65",
+    "https://techblatt.example/sonoum-s41-pro-64"
+   ],
+   "claims": [
+    {
+     "start": 50,
+     "end": 58,
+     "attribute": "water tank",
+     "truth": "inaccurate",
+     "verdict": "inaccurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.9823,
+     "verified": "1.7 l",
+     "reasons": [
+      "equals the value before the last verified change (points to wrong)",
+      "distance from the verified value (points to wrong)",
+      "distance from the verified value in the market asked about (points to wrong)"
+     ],
+     "source": "https://gearwire.example/sonoum-s41-pro-63",
+     "source_why": "cited, and says the same wrong value"
+    },
+    {
+     "start": 98,
+     "end": 104,
+     "attribute": "price",
+     "truth": "accurate",
+     "verdict": "accurate",
+     "rules": "inaccurate",
+     "p_wrong": 0.0265,
+     "verified": "$1,149 / €989",
+     "reasons": [
+      "hedged, within 10 % of the verified value (points to right)",
+      "hedged, within 12 % of the local verified value (points to right)",
+      "hedged, within 5 % of the verified value (points to right)"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 122,
+     "end": 128,
+     "attribute": "warranty",
+     "truth": "accurate",
+     "verdict": "accurate",
+     "rules": "accurate",
+     "p_wrong": 0.0006,
+     "verified": "24 months",
+     "reasons": [
+      "exact, within 2 % of the verified value (points to right)",
+      "exact, within 3 % of the verified value (points to right)",
+      "exact, within 5 % of the verified value (points to right)"
+     ],
+     "source": null,
+     "source_why": null
+    },
+    {
+     "start": 151,
+     "end": 156,
+     "attribute": "pump pressure",
+     "truth": "accurate",
+     "verdict": "accurate",
+     "rules": "accurate",
+     "p_wrong": 0.0008,
+     "verified": "9 bar",
+     "reasons": [
+      "exact, within 2 % of the verified value (points to right)",
+      "exact, within 3 % of the verified value (points to right)",
+      "exact, within 5 % of the verified value (points to right)"
+     ],
+     "source": null,
+     "source_why": null
+    }
+   ]
+  }
+ ],
+ "tickets": [
+  {
+   "kind": "publisher",
+   "product": "Lumost Gold Card",
+   "attribute": "foreign_fee",
+   "wrong_claims": 11,
+   "engines": [
+    "answer",
+    "chat",
+    "overview",
+    "shopping"
+   ],
+   "draft": "Hello, your page https://pointsguide.example/lumost-gold-card-543 gives a foreign transaction fee for Lumost Gold Card that differs from the manufacturer's verified value (1.75 %). AI assistants are repeating it (11 answers this week). Could you update it? Source: Lumost product data."
+  },
+  {
+   "kind": "publisher",
+   "product": "Venyn Gold Card",
+   "attribute": "cashback",
+   "wrong_claims": 9,
+   "engines": [
+    "chat",
+    "overview",
+    "shopping"
+   ],
+   "draft": "Hello, your page https://forum-de.example/venyn-gold-card-165 gives a cashback for Venyn Gold Card that differs from the manufacturer's verified value (5 %). AI assistants are repeating it (9 answers this week). Could you update it? Source: Venyn product data."
+  },
+  {
+   "kind": "publisher",
+   "product": "Fjorost M95 Pro",
+   "attribute": "warranty",
+   "wrong_claims": 9,
+   "engines": [
+    "answer",
+    "chat",
+    "overview",
+    "shopping"
+   ],
+   "draft": "Hello, your page https://gearwire.example/fjorost-m95-pro-599 gives a warranty for Fjorost M95 Pro that differs from the manufacturer's verified value (36 months). AI assistants are repeating it (9 answers this week). Could you update it? Source: Fjorost product data."
+  },
+  {
+   "kind": "publisher",
+   "product": "Fenost Gold Card",
+   "attribute": "foreign_fee",
+   "wrong_claims": 8,
+   "engines": [
+    "answer",
+    "chat",
+    "overview",
+    "shopping"
+   ],
+   "draft": "Hello, your page https://best-picks.example/fenost-gold-card-261 gives a foreign transaction fee for Fenost Gold Card that differs from the manufacturer's verified value (1.75 %). AI assistants are repeating it (8 answers this week). Could you update it? Source: Fenost product data."
+  },
+  {
+   "kind": "publisher",
+   "product": "Kestant T90",
+   "attribute": "weight",
+   "wrong_claims": 8,
+   "engines": [
+    "answer",
+    "chat",
+    "overview",
+    "shopping"
+   ],
+   "draft": "Hello, your page https://reviewdesk.example/kestant-t90-131 gives a weight for Kestant T90 that differs from the manufacturer's verified value (24.8 kg). AI assistants are repeating it (8 answers this week). Could you update it? Source: Kestant product data."
+  },
+  {
+   "kind": "publisher",
+   "product": "Venost D26 Air",
+   "attribute": "warranty",
+   "wrong_claims": 7,
+   "engines": [
+    "answer",
+    "chat",
+    "overview",
+    "shopping"
+   ],
+   "draft": "Hello, your page https://reviewdesk.example/venost-d26-air-406 gives a warranty for Venost D26 Air that differs from the manufacturer's verified value (36 months). AI assistants are repeating it (7 answers this week). Could you update it? Source: Venost product data."
+  },
+  {
+   "kind": "publisher",
+   "product": "Pellari Travel Card",
+   "attribute": "foreign_fee",
+   "wrong_claims": 7,
+   "engines": [
+    "answer",
+    "chat",
+    "overview",
+    "shopping"
+   ],
+   "draft": "Hello, your page https://talkboard.example/pellari-travel-card-360 gives a foreign transaction fee for Pellari Travel Card that differs from the manufacturer's verified value (1.75 %). AI assistants are repeating it (7 answers this week). Could you update it? Source: Pellari product data."
+  },
+  {
+   "kind": "publisher",
+   "product": "Torex V19 Air",
+   "attribute": "warranty",
+   "wrong_claims": 7,
+   "engines": [
+    "answer",
+    "chat",
+    "shopping"
+   ],
+   "draft": "Hello, your page https://techblatt.example/torex-v19-air-219 gives a warranty for Torex V19 Air that differs from the manufacturer's verified value (36 months). AI assistants are repeating it (7 answers this week). Could you update it? Source: Torex product data."
+  }
+ ],
+ "heldout": null
+}

@@ -1,0 +1,16 @@
+# Words that tell the extractor which fact a number is about, when the unit alone does not.
+# Written by the team from reading answers; extend it when the extraction report shows misses.
+
+[cues]
+price = ["price", "priced", "costs", "cost", "retails", "sells for", "msrp", "preis", "kostet", "kosten", "erhältlich für"]
+annual_fee = ["annual fee", "yearly fee", "fee of", "costs", "jahresgebühr", "jährliche gebühr", "gebühr"]
+battery = ["battery", "on a charge", "charge", "lasts", "akku", "akkulaufzeit", "laufzeit"]
+warranty = ["warranty", "guarantee", "garantie", "gewährleistung"]
+weight = ["weighs", "weight", "wiegt", "gewicht"]
+range = ["range", "reichweite", "on one charge"]
+pressure = ["pressure", "pump", "druck", "pumpe"]
+tank = ["tank", "water tank", "wassertank", "reservoir"]
+apr = ["apr", "interest", "purchase rate", "zins", "sollzins", "jahreszins", "effektiver jahreszins"]
+cashback = ["cashback", "cash back", "back on", "zurück"]
+foreign_fee = ["foreign", "abroad", "fx fee", "ausland", "fremdwährung", "auslandseinsatz"]
+anc = ["noise cancelling", "noise-cancelling", "noise canceling", "anc", "geräuschunterdrückung"]

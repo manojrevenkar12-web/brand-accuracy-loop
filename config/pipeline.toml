@@ -1,0 +1,35 @@
+# Settings for the pipeline. The world never reads this file.
+
+[features]
+# a relative error divides by max(|verified value|, floor), so that 0 € fees and 0 % rates compare sensibly
+floor = { money = 10.0, h = 1.0, month = 3.0, km = 2.0, kg = 0.2, l = 0.1, bar = 1.0, "%" = 0.25 }
+
+[rules]
+tolerance = 0.02   # the hand-written verifier: a number within 2 % of the verified value is right
+
+[train]
+annotation_budget = 2000   # claims the annotators label
+folds = 5
+clean_threshold = 0.12     # a label the cross-validated model gives less than this probability goes to a second reader
+reweight_language = true   # German claims weigh as much as English ones (the annotated set is 10 % German)
+C = 2.0
+threshold = 0.5            # P(wrong) at or above this reports the claim as inaccurate
+
+[review]
+band = [0.2, 0.8]          # the review design sends claims with P(wrong) in this band to a person
+minutes_per_claim = 1.5
+eur_per_hour = 45.0
+
+[attribution]
+exact_tolerance = 0.03     # a page "says the same thing" as the answer within this distance
+approx_tolerance = 0.10
+cited_bonus = 1.0          # a cited page outranks an uncited one that says the same thing
+
+[corrections]
+fixes_per_week = 30        # outreach the brand team can send in a week, across all brands
+
+[cost]
+vcpu_hour_usd = 0.04
+judge_price_in_per_mtok = 3.0    # list price of the LLM judge we compare against, per million tokens
+judge_price_out_per_mtok = 15.0
+judge_output_tokens = 60

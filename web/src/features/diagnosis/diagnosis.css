@@ -1,0 +1,10 @@
+.diagnosis { display: flex; flex-direction: column; gap: var(--space-5); }
+.diagnosis__row { display: grid; grid-template-columns: auto 1fr; gap: var(--space-1) var(--space-4); align-items: center; }
+.diagnosis__method { grid-column: 1 / -1; margin: 0; font-weight: 650; }
+.diagnosis__row .muted { font-size: var(--step--1); }
+.bar { display: grid; grid-template-columns: 1fr 4.5em; gap: var(--space-2); align-items: center; }
+.bar__track { position: relative; height: var(--space-4); background: var(--tint); border-radius: var(--radius-sheet); }
+.bar__fill { position: absolute; inset: 0 auto 0 0; border-radius: var(--radius-sheet); }
+.bar__fill--right { background: var(--right); }
+.bar__fill--wrong { background: var(--wrong); }
+.bar__value { text-align: right; font-size: var(--step--1); font-weight: 650; }

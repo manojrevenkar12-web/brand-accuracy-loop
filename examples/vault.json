@@ -1,0 +1,3800 @@
+{
+ "facts": [
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "fenis-0",
+   "values": {
+    "DE": 219.0,
+    "US": 239.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "fenis-0",
+   "values": {
+    "*": 39.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "fenis-0",
+   "values": {
+    "*": 12.0
+   }
+  },
+  {
+   "attribute": "anc",
+   "previous": {},
+   "product_id": "fenis-0",
+   "values": {
+    "*": 1.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {
+    "DE": 179.0,
+    "US": 289.0
+   },
+   "product_id": "fenis-1",
+   "values": {
+    "DE": 209.0,
+    "US": 229.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "fenis-1",
+   "values": {
+    "*": 37.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "fenis-1",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "anc",
+   "previous": {},
+   "product_id": "fenis-1",
+   "values": {
+    "*": 1.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "fenis-2",
+   "values": {
+    "DE": 149.0,
+    "US": 169.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "fenis-2",
+   "values": {
+    "*": 12.0
+   }
+  },
+  {
+   "attribute": "anc",
+   "previous": {},
+   "product_id": "fenis-2",
+   "values": {
+    "*": 1.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {
+    "DE": 1849.0,
+    "US": 1699.0
+   },
+   "product_id": "lumex-0",
+   "values": {
+    "DE": 2149.0,
+    "US": 2149.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "lumex-0",
+   "values": {
+    "*": 12.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "lumex-0",
+   "values": {
+    "*": 1.4
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "lumex-0",
+   "values": {
+    "*": 24.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "lumex-1",
+   "values": {
+    "DE": 2049.0,
+    "US": 2199.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "lumex-1",
+   "values": {
+    "*": 22.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "lumex-1",
+   "values": {
+    "*": 1.6
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "lumex-1",
+   "values": {
+    "*": 12.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "daxyn-0",
+   "values": {
+    "DE": 1999.0,
+    "US": 2049.0
+   }
+  },
+  {
+   "attribute": "range",
+   "previous": {},
+   "product_id": "daxyn-0",
+   "values": {
+    "*": 125.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "daxyn-0",
+   "values": {
+    "*": 31.8
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "daxyn-0",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "daxyn-1",
+   "values": {
+    "DE": 4999.0,
+    "US": 5699.0
+   }
+  },
+  {
+   "attribute": "range",
+   "previous": {},
+   "product_id": "daxyn-1",
+   "values": {
+    "*": 65.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "daxyn-1",
+   "values": {
+    "*": 22.4
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "daxyn-1",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "sonoum-0",
+   "values": {
+    "DE": 1249.0,
+    "US": 1249.0
+   }
+  },
+  {
+   "attribute": "pressure",
+   "previous": {
+    "*": 9.0
+   },
+   "product_id": "sonoum-0",
+   "values": {
+    "*": 15.0
+   }
+  },
+  {
+   "attribute": "tank",
+   "previous": {},
+   "product_id": "sonoum-0",
+   "values": {
+    "*": 1.6
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "sonoum-0",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "sonoum-1",
+   "values": {
+    "DE": 969.0,
+    "US": 979.0
+   }
+  },
+  {
+   "attribute": "pressure",
+   "previous": {
+    "*": 20.0
+   },
+   "product_id": "sonoum-1",
+   "values": {
+    "*": 15.0
+   }
+  },
+  {
+   "attribute": "tank",
+   "previous": {
+    "*": 3.0
+   },
+   "product_id": "sonoum-1",
+   "values": {
+    "*": 2.4
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "sonoum-1",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {
+    "DE": 1249.0,
+    "US": 1349.0
+   },
+   "product_id": "sonoum-2",
+   "values": {
+    "DE": 989.0,
+    "US": 1149.0
+   }
+  },
+  {
+   "attribute": "pressure",
+   "previous": {},
+   "product_id": "sonoum-2",
+   "values": {
+    "*": 9.0
+   }
+  },
+  {
+   "attribute": "tank",
+   "previous": {
+    "*": 2.0
+   },
+   "product_id": "sonoum-2",
+   "values": {
+    "*": 1.7
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "sonoum-2",
+   "values": {
+    "*": 24.0
+   }
+  },
+  {
+   "attribute": "annual_fee",
+   "previous": {},
+   "product_id": "orbum-0",
+   "values": {
+    "DE": 299.0,
+    "US": 695.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {
+    "*": 31.99
+   },
+   "product_id": "orbum-0",
+   "values": {
+    "*": 29.99
+   }
+  },
+  {
+   "attribute": "cashback",
+   "previous": {},
+   "product_id": "orbum-0",
+   "values": {
+    "*": 4.0
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {},
+   "product_id": "orbum-0",
+   "values": {
+    "*": 0.0
+   }
+  },
+  {
+   "attribute": "annual_fee",
+   "previous": {},
+   "product_id": "orbum-1",
+   "values": {
+    "DE": 149.0,
+    "US": 550.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {},
+   "product_id": "orbum-1",
+   "values": {
+    "*": 19.99
+   }
+  },
+  {
+   "attribute": "cashback",
+   "previous": {},
+   "product_id": "orbum-1",
+   "values": {
+    "*": 5.0
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {},
+   "product_id": "orbum-1",
+   "values": {
+    "*": 1.5
+   }
+  },
+  {
+   "attribute": "annual_fee",
+   "previous": {},
+   "product_id": "orbum-2",
+   "values": {
+    "DE": 149.0,
+    "US": 550.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {},
+   "product_id": "orbum-2",
+   "values": {
+    "*": 20.99
+   }
+  },
+  {
+   "attribute": "cashback",
+   "previous": {},
+   "product_id": "orbum-2",
+   "values": {
+    "*": 4.0
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {},
+   "product_id": "orbum-2",
+   "values": {
+    "*": 3.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {
+    "DE": 139.0,
+    "US": 129.0
+   },
+   "product_id": "ulmex-0",
+   "values": {
+    "DE": 159.0,
+    "US": 169.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "ulmex-0",
+   "values": {
+    "*": 32.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {
+    "*": 12.0
+   },
+   "product_id": "ulmex-0",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "anc",
+   "previous": {},
+   "product_id": "ulmex-0",
+   "values": {
+    "*": 1.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "ulmex-1",
+   "values": {
+    "DE": 319.0,
+    "US": 339.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "ulmex-1",
+   "values": {
+    "*": 29.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "ulmex-1",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "anc",
+   "previous": {},
+   "product_id": "ulmex-1",
+   "values": {
+    "*": 1.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "juno-0",
+   "values": {
+    "DE": 1199.0,
+    "US": 1199.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "juno-0",
+   "values": {
+    "*": 1.4
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {
+    "*": 24.0
+   },
+   "product_id": "juno-0",
+   "values": {
+    "*": 12.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "juno-1",
+   "values": {
+    "DE": 909.0,
+    "US": 969.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "juno-1",
+   "values": {
+    "*": 17.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {
+    "*": 2.6
+   },
+   "product_id": "juno-1",
+   "values": {
+    "*": 2.3
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "juno-1",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "kestant-0",
+   "values": {
+    "DE": 3399.0,
+    "US": 3649.0
+   }
+  },
+  {
+   "attribute": "range",
+   "previous": {
+    "*": 113.0
+   },
+   "product_id": "kestant-0",
+   "values": {
+    "*": 135.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "kestant-0",
+   "values": {
+    "*": 32.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "kestant-0",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {
+    "DE": 1349.0,
+    "US": 2299.0
+   },
+   "product_id": "kestant-1",
+   "values": {
+    "DE": 1799.0,
+    "US": 2049.0
+   }
+  },
+  {
+   "attribute": "range",
+   "previous": {},
+   "product_id": "kestant-1",
+   "values": {
+    "*": 50.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "kestant-1",
+   "values": {
+    "*": 24.8
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {
+    "DE": 559.0,
+    "US": 809.0
+   },
+   "product_id": "marelle-0",
+   "values": {
+    "DE": 659.0,
+    "US": 689.0
+   }
+  },
+  {
+   "attribute": "pressure",
+   "previous": {},
+   "product_id": "marelle-0",
+   "values": {
+    "*": 9.0
+   }
+  },
+  {
+   "attribute": "tank",
+   "previous": {
+    "*": 1.4
+   },
+   "product_id": "marelle-0",
+   "values": {
+    "*": 1.6
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "marelle-0",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "marelle-1",
+   "values": {
+    "DE": 329.0,
+    "US": 339.0
+   }
+  },
+  {
+   "attribute": "pressure",
+   "previous": {},
+   "product_id": "marelle-1",
+   "values": {
+    "*": 20.0
+   }
+  },
+  {
+   "attribute": "tank",
+   "previous": {},
+   "product_id": "marelle-1",
+   "values": {
+    "*": 1.4
+   }
+  },
+  {
+   "attribute": "annual_fee",
+   "previous": {},
+   "product_id": "venyn-0",
+   "values": {
+    "DE": 0.0,
+    "US": 0.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {},
+   "product_id": "venyn-0",
+   "values": {
+    "*": 28.99
+   }
+  },
+  {
+   "attribute": "cashback",
+   "previous": {
+    "*": 5.0
+   },
+   "product_id": "venyn-0",
+   "values": {
+    "*": 1.0
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {},
+   "product_id": "venyn-0",
+   "values": {
+    "*": 2.5
+   }
+  },
+  {
+   "attribute": "annual_fee",
+   "previous": {},
+   "product_id": "venyn-1",
+   "values": {
+    "DE": 49.0,
+    "US": 95.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {},
+   "product_id": "venyn-1",
+   "values": {
+    "*": 26.99
+   }
+  },
+  {
+   "attribute": "cashback",
+   "previous": {
+    "*": 1.5
+   },
+   "product_id": "venyn-1",
+   "values": {
+    "*": 5.0
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {
+    "*": 0.0
+   },
+   "product_id": "venyn-1",
+   "values": {
+    "*": 3.0
+   }
+  },
+  {
+   "attribute": "annual_fee",
+   "previous": {
+    "DE": 299.0,
+    "US": 550.0
+   },
+   "product_id": "venyn-2",
+   "values": {
+    "DE": 99.0,
+    "US": 250.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {},
+   "product_id": "venyn-2",
+   "values": {
+    "*": 27.99
+   }
+  },
+  {
+   "attribute": "cashback",
+   "previous": {},
+   "product_id": "venyn-2",
+   "values": {
+    "*": 3.0
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {},
+   "product_id": "venyn-2",
+   "values": {
+    "*": 2.5
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {
+    "DE": 279.0,
+    "US": 319.0
+   },
+   "product_id": "zephelle-0",
+   "values": {
+    "DE": 239.0,
+    "US": 269.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "zephelle-0",
+   "values": {
+    "*": 50.0
+   }
+  },
+  {
+   "attribute": "anc",
+   "previous": {},
+   "product_id": "zephelle-0",
+   "values": {
+    "*": 1.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "zephelle-1",
+   "values": {
+    "DE": 89.0,
+    "US": 89.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {
+    "*": 21.0
+   },
+   "product_id": "zephelle-1",
+   "values": {
+    "*": 25.0
+   }
+  },
+  {
+   "attribute": "anc",
+   "previous": {},
+   "product_id": "zephelle-1",
+   "values": {
+    "*": 1.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "zephelle-2",
+   "values": {
+    "DE": 429.0,
+    "US": 429.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "zephelle-2",
+   "values": {
+    "*": 46.0
+   }
+  },
+  {
+   "attribute": "anc",
+   "previous": {},
+   "product_id": "zephelle-2",
+   "values": {
+    "*": 1.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "junon-0",
+   "values": {
+    "DE": 1549.0,
+    "US": 1799.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "junon-0",
+   "values": {
+    "*": 2.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {
+    "*": 36.0
+   },
+   "product_id": "junon-0",
+   "values": {
+    "*": 12.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "junon-1",
+   "values": {
+    "DE": 1299.0,
+    "US": 1449.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "junon-1",
+   "values": {
+    "*": 11.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "junon-1",
+   "values": {
+    "*": 1.9
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {
+    "*": 60.0
+   },
+   "product_id": "junon-1",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {
+    "DE": 899.0,
+    "US": 889.0
+   },
+   "product_id": "junon-2",
+   "values": {
+    "DE": 999.0,
+    "US": 1099.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "junon-2",
+   "values": {
+    "*": 18.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "junon-2",
+   "values": {
+    "*": 1.7
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "junon-2",
+   "values": {
+    "*": 12.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "torex-0",
+   "values": {
+    "DE": 4949.0,
+    "US": 5199.0
+   }
+  },
+  {
+   "attribute": "range",
+   "previous": {},
+   "product_id": "torex-0",
+   "values": {
+    "*": 60.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {
+    "*": 12.0
+   },
+   "product_id": "torex-0",
+   "values": {
+    "*": 60.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "torex-1",
+   "values": {
+    "DE": 3449.0,
+    "US": 3749.0
+   }
+  },
+  {
+   "attribute": "range",
+   "previous": {},
+   "product_id": "torex-1",
+   "values": {
+    "*": 70.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "torex-1",
+   "values": {
+    "*": 30.5
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {
+    "*": 24.0
+   },
+   "product_id": "torex-1",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "elyant-0",
+   "values": {
+    "DE": 979.0,
+    "US": 1099.0
+   }
+  },
+  {
+   "attribute": "pressure",
+   "previous": {},
+   "product_id": "elyant-0",
+   "values": {
+    "*": 20.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "elyant-0",
+   "values": {
+    "*": 24.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "elyant-1",
+   "values": {
+    "DE": 209.0,
+    "US": 219.0
+   }
+  },
+  {
+   "attribute": "tank",
+   "previous": {},
+   "product_id": "elyant-1",
+   "values": {
+    "*": 2.5
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "elyant-1",
+   "values": {
+    "*": 24.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {
+    "DE": 329.0,
+    "US": 579.0
+   },
+   "product_id": "elyant-2",
+   "values": {
+    "DE": 419.0,
+    "US": 459.0
+   }
+  },
+  {
+   "attribute": "pressure",
+   "previous": {},
+   "product_id": "elyant-2",
+   "values": {
+    "*": 9.0
+   }
+  },
+  {
+   "attribute": "tank",
+   "previous": {},
+   "product_id": "elyant-2",
+   "values": {
+    "*": 2.1
+   }
+  },
+  {
+   "attribute": "annual_fee",
+   "previous": {},
+   "product_id": "fenost-0",
+   "values": {
+    "DE": 99.0,
+    "US": 250.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {
+    "*": 24.99
+   },
+   "product_id": "fenost-0",
+   "values": {
+    "*": 26.99
+   }
+  },
+  {
+   "attribute": "cashback",
+   "previous": {},
+   "product_id": "fenost-0",
+   "values": {
+    "*": 1.0
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {},
+   "product_id": "fenost-0",
+   "values": {
+    "*": 1.5
+   }
+  },
+  {
+   "attribute": "annual_fee",
+   "previous": {},
+   "product_id": "fenost-1",
+   "values": {
+    "DE": 99.0,
+    "US": 250.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {},
+   "product_id": "fenost-1",
+   "values": {
+    "*": 29.99
+   }
+  },
+  {
+   "attribute": "cashback",
+   "previous": {
+    "*": 5.0
+   },
+   "product_id": "fenost-1",
+   "values": {
+    "*": 1.0
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {},
+   "product_id": "fenost-1",
+   "values": {
+    "*": 1.75
+   }
+  },
+  {
+   "attribute": "annual_fee",
+   "previous": {},
+   "product_id": "fenost-2",
+   "values": {
+    "DE": 49.0,
+    "US": 95.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {},
+   "product_id": "fenost-2",
+   "values": {
+    "*": 28.99
+   }
+  },
+  {
+   "attribute": "cashback",
+   "previous": {},
+   "product_id": "fenost-2",
+   "values": {
+    "*": 5.0
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {},
+   "product_id": "fenost-2",
+   "values": {
+    "*": 1.75
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "pellova-0",
+   "values": {
+    "DE": 289.0,
+    "US": 329.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {
+    "*": 36.0
+   },
+   "product_id": "pellova-0",
+   "values": {
+    "*": 32.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "pellova-0",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "anc",
+   "previous": {},
+   "product_id": "pellova-0",
+   "values": {
+    "*": 1.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "pellova-1",
+   "values": {
+    "DE": 219.0,
+    "US": 219.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {
+    "*": 35.0
+   },
+   "product_id": "pellova-1",
+   "values": {
+    "*": 45.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "pellova-1",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "anc",
+   "previous": {},
+   "product_id": "pellova-1",
+   "values": {
+    "*": 0.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "pellova-2",
+   "values": {
+    "DE": 219.0,
+    "US": 219.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {
+    "*": 52.0
+   },
+   "product_id": "pellova-2",
+   "values": {
+    "*": 47.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "pellova-2",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "anc",
+   "previous": {},
+   "product_id": "pellova-2",
+   "values": {
+    "*": 1.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "sonoo-0",
+   "values": {
+    "DE": 1249.0,
+    "US": 1399.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {
+    "*": 13.0
+   },
+   "product_id": "sonoo-0",
+   "values": {
+    "*": 14.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "sonoo-0",
+   "values": {
+    "*": 1.7
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {
+    "*": 60.0
+   },
+   "product_id": "sonoo-0",
+   "values": {
+    "*": 12.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {
+    "DE": 2049.0,
+    "US": 2149.0
+   },
+   "product_id": "sonoo-1",
+   "values": {
+    "DE": 1699.0,
+    "US": 1949.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "sonoo-1",
+   "values": {
+    "*": 17.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "sonoo-1",
+   "values": {
+    "*": 1.8
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "sonoo-1",
+   "values": {
+    "*": 24.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "venant-0",
+   "values": {
+    "DE": 3749.0,
+    "US": 3749.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "venant-0",
+   "values": {
+    "*": 24.0
+   }
+  },
+  {
+   "attribute": "range",
+   "previous": {},
+   "product_id": "venant-1",
+   "values": {
+    "*": 160.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "venant-1",
+   "values": {
+    "*": 24.5
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "venant-2",
+   "values": {
+    "DE": 5249.0,
+    "US": 5899.0
+   }
+  },
+  {
+   "attribute": "range",
+   "previous": {
+    "*": 82.0
+   },
+   "product_id": "venant-2",
+   "values": {
+    "*": 75.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "venant-2",
+   "values": {
+    "*": 30.2
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "venant-2",
+   "values": {
+    "*": 24.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "ulmis-0",
+   "values": {
+    "DE": 789.0,
+    "US": 819.0
+   }
+  },
+  {
+   "attribute": "pressure",
+   "previous": {},
+   "product_id": "ulmis-0",
+   "values": {
+    "*": 19.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {
+    "*": 12.0
+   },
+   "product_id": "ulmis-0",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "ulmis-1",
+   "values": {
+    "DE": 739.0,
+    "US": 779.0
+   }
+  },
+  {
+   "attribute": "pressure",
+   "previous": {},
+   "product_id": "ulmis-1",
+   "values": {
+    "*": 19.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "ulmis-1",
+   "values": {
+    "*": 12.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "ulmis-2",
+   "values": {
+    "DE": 939.0,
+    "US": 959.0
+   }
+  },
+  {
+   "attribute": "pressure",
+   "previous": {},
+   "product_id": "ulmis-2",
+   "values": {
+    "*": 19.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "ulmis-2",
+   "values": {
+    "*": 24.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {
+    "*": 21.99
+   },
+   "product_id": "pellari-0",
+   "values": {
+    "*": 18.99
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {
+    "*": 1.75
+   },
+   "product_id": "pellari-0",
+   "values": {
+    "*": 0.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {},
+   "product_id": "pellari-1",
+   "values": {
+    "*": 19.99
+   }
+  },
+  {
+   "attribute": "cashback",
+   "previous": {},
+   "product_id": "pellari-1",
+   "values": {
+    "*": 5.0
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {
+    "*": 3.0
+   },
+   "product_id": "pellari-1",
+   "values": {
+    "*": 1.75
+   }
+  },
+  {
+   "attribute": "annual_fee",
+   "previous": {},
+   "product_id": "pellari-2",
+   "values": {
+    "DE": 0.0,
+    "US": 0.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {
+    "*": 21.99
+   },
+   "product_id": "pellari-2",
+   "values": {
+    "*": 18.99
+   }
+  },
+  {
+   "attribute": "cashback",
+   "previous": {},
+   "product_id": "pellari-2",
+   "values": {
+    "*": 3.0
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {},
+   "product_id": "pellari-2",
+   "values": {
+    "*": 2.5
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "wexum-0",
+   "values": {
+    "DE": 229.0,
+    "US": 249.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "wexum-0",
+   "values": {
+    "*": 56.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {
+    "*": 60.0
+   },
+   "product_id": "wexum-0",
+   "values": {
+    "*": 12.0
+   }
+  },
+  {
+   "attribute": "anc",
+   "previous": {},
+   "product_id": "wexum-0",
+   "values": {
+    "*": 1.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "wexum-1",
+   "values": {
+    "DE": 329.0,
+    "US": 349.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {
+    "*": 62.0
+   },
+   "product_id": "wexum-1",
+   "values": {
+    "*": 51.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "wexum-1",
+   "values": {
+    "*": 24.0
+   }
+  },
+  {
+   "attribute": "anc",
+   "previous": {},
+   "product_id": "wexum-1",
+   "values": {
+    "*": 0.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "venost-0",
+   "values": {
+    "DE": 1899.0,
+    "US": 1949.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {
+    "*": 30.0
+   },
+   "product_id": "venost-0",
+   "values": {
+    "*": 24.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {
+    "*": 1.4
+   },
+   "product_id": "venost-0",
+   "values": {
+    "*": 1.9
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "venost-0",
+   "values": {
+    "*": 12.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "venost-1",
+   "values": {
+    "DE": 999.0,
+    "US": 1149.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "venost-1",
+   "values": {
+    "*": 10.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {
+    "*": 0.8
+   },
+   "product_id": "venost-1",
+   "values": {
+    "*": 1.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {
+    "*": 36.0
+   },
+   "product_id": "venost-1",
+   "values": {
+    "*": 12.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {
+    "DE": 2649.0,
+    "US": 2049.0
+   },
+   "product_id": "venost-2",
+   "values": {
+    "DE": 2349.0,
+    "US": 2349.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "venost-2",
+   "values": {
+    "*": 16.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {
+    "*": 2.2
+   },
+   "product_id": "venost-2",
+   "values": {
+    "*": 2.5
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {
+    "*": 60.0
+   },
+   "product_id": "venost-2",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "aurelle-0",
+   "values": {
+    "DE": 5249.0,
+    "US": 5949.0
+   }
+  },
+  {
+   "attribute": "range",
+   "previous": {},
+   "product_id": "aurelle-0",
+   "values": {
+    "*": 115.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "aurelle-0",
+   "values": {
+    "*": 60.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "aurelle-1",
+   "values": {
+    "DE": 4449.0,
+    "US": 4899.0
+   }
+  },
+  {
+   "attribute": "range",
+   "previous": {},
+   "product_id": "aurelle-1",
+   "values": {
+    "*": 45.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "aurelle-1",
+   "values": {
+    "*": 22.6
+   }
+  },
+  {
+   "attribute": "pressure",
+   "previous": {},
+   "product_id": "briois-0",
+   "values": {
+    "*": 9.0
+   }
+  },
+  {
+   "attribute": "tank",
+   "previous": {},
+   "product_id": "briois-0",
+   "values": {
+    "*": 1.5
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {
+    "*": 24.0
+   },
+   "product_id": "briois-0",
+   "values": {
+    "*": 12.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "briois-1",
+   "values": {
+    "DE": 1199.0,
+    "US": 1299.0
+   }
+  },
+  {
+   "attribute": "pressure",
+   "previous": {},
+   "product_id": "briois-1",
+   "values": {
+    "*": 9.0
+   }
+  },
+  {
+   "attribute": "tank",
+   "previous": {},
+   "product_id": "briois-1",
+   "values": {
+    "*": 2.4
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {
+    "*": 12.0
+   },
+   "product_id": "briois-1",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {
+    "DE": 1399.0,
+    "US": 1449.0
+   },
+   "product_id": "briois-2",
+   "values": {
+    "DE": 1199.0,
+    "US": 1249.0
+   }
+  },
+  {
+   "attribute": "pressure",
+   "previous": {},
+   "product_id": "briois-2",
+   "values": {
+    "*": 20.0
+   }
+  },
+  {
+   "attribute": "tank",
+   "previous": {},
+   "product_id": "briois-2",
+   "values": {
+    "*": 2.1
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {
+    "*": 24.0
+   },
+   "product_id": "briois-2",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "annual_fee",
+   "previous": {},
+   "product_id": "brioon-0",
+   "values": {
+    "DE": 0.0,
+    "US": 0.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {
+    "*": 25.99
+   },
+   "product_id": "brioon-0",
+   "values": {
+    "*": 22.99
+   }
+  },
+  {
+   "attribute": "cashback",
+   "previous": {},
+   "product_id": "brioon-0",
+   "values": {
+    "*": 3.0
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {},
+   "product_id": "brioon-0",
+   "values": {
+    "*": 1.75
+   }
+  },
+  {
+   "attribute": "annual_fee",
+   "previous": {},
+   "product_id": "brioon-1",
+   "values": {
+    "DE": 299.0,
+    "US": 695.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {},
+   "product_id": "brioon-1",
+   "values": {
+    "*": 16.99
+   }
+  },
+  {
+   "attribute": "cashback",
+   "previous": {},
+   "product_id": "brioon-1",
+   "values": {
+    "*": 5.0
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {},
+   "product_id": "brioon-1",
+   "values": {
+    "*": 3.0
+   }
+  },
+  {
+   "attribute": "annual_fee",
+   "previous": {},
+   "product_id": "brioon-2",
+   "values": {
+    "DE": 0.0,
+    "US": 0.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {},
+   "product_id": "brioon-2",
+   "values": {
+    "*": 28.99
+   }
+  },
+  {
+   "attribute": "cashback",
+   "previous": {},
+   "product_id": "brioon-2",
+   "values": {
+    "*": 5.0
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {},
+   "product_id": "brioon-2",
+   "values": {
+    "*": 2.5
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "talant-0",
+   "values": {
+    "DE": 179.0,
+    "US": 179.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "talant-0",
+   "values": {
+    "*": 23.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "talant-0",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "talant-1",
+   "values": {
+    "DE": 259.0,
+    "US": 289.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "talant-1",
+   "values": {
+    "*": 24.0
+   }
+  },
+  {
+   "attribute": "anc",
+   "previous": {},
+   "product_id": "talant-1",
+   "values": {
+    "*": 1.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "quinis-0",
+   "values": {
+    "DE": 1649.0,
+    "US": 1899.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "quinis-0",
+   "values": {
+    "*": 1.3
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "quinis-1",
+   "values": {
+    "DE": 1399.0,
+    "US": 1399.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "quinis-1",
+   "values": {
+    "*": 13.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "quinis-1",
+   "values": {
+    "*": 12.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {
+    "DE": 2149.0,
+    "US": 2299.0
+   },
+   "product_id": "silon-0",
+   "values": {
+    "DE": 2599.0,
+    "US": 2649.0
+   }
+  },
+  {
+   "attribute": "range",
+   "previous": {
+    "*": 53.0
+   },
+   "product_id": "silon-0",
+   "values": {
+    "*": 70.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {
+    "*": 27.9
+   },
+   "product_id": "silon-0",
+   "values": {
+    "*": 30.8
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "silon-0",
+   "values": {
+    "*": 24.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "silon-1",
+   "values": {
+    "*": 22.5
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {
+    "*": 12.0
+   },
+   "product_id": "silon-1",
+   "values": {
+    "*": 24.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "pelleta-0",
+   "values": {
+    "DE": 929.0,
+    "US": 969.0
+   }
+  },
+  {
+   "attribute": "pressure",
+   "previous": {},
+   "product_id": "pelleta-0",
+   "values": {
+    "*": 9.0
+   }
+  },
+  {
+   "attribute": "tank",
+   "previous": {},
+   "product_id": "pelleta-0",
+   "values": {
+    "*": 1.7
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "pelleta-0",
+   "values": {
+    "*": 24.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "pelleta-1",
+   "values": {
+    "DE": 969.0,
+    "US": 999.0
+   }
+  },
+  {
+   "attribute": "pressure",
+   "previous": {},
+   "product_id": "pelleta-1",
+   "values": {
+    "*": 9.0
+   }
+  },
+  {
+   "attribute": "tank",
+   "previous": {},
+   "product_id": "pelleta-1",
+   "values": {
+    "*": 1.7
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "pelleta-1",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {},
+   "product_id": "lumost-0",
+   "values": {
+    "*": 25.99
+   }
+  },
+  {
+   "attribute": "cashback",
+   "previous": {
+    "*": 4.0
+   },
+   "product_id": "lumost-0",
+   "values": {
+    "*": 1.5
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {},
+   "product_id": "lumost-0",
+   "values": {
+    "*": 2.5
+   }
+  },
+  {
+   "attribute": "annual_fee",
+   "previous": {
+    "DE": 99.0,
+    "US": 0.0
+   },
+   "product_id": "lumost-1",
+   "values": {
+    "DE": 299.0,
+    "US": 695.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {
+    "*": 27.99
+   },
+   "product_id": "lumost-1",
+   "values": {
+    "*": 29.99
+   }
+  },
+  {
+   "attribute": "cashback",
+   "previous": {},
+   "product_id": "lumost-1",
+   "values": {
+    "*": 4.0
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {},
+   "product_id": "lumost-1",
+   "values": {
+    "*": 1.5
+   }
+  },
+  {
+   "attribute": "annual_fee",
+   "previous": {
+    "DE": 149.0,
+    "US": 0.0
+   },
+   "product_id": "lumost-2",
+   "values": {
+    "DE": 299.0,
+    "US": 695.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {},
+   "product_id": "lumost-2",
+   "values": {
+    "*": 23.99
+   }
+  },
+  {
+   "attribute": "cashback",
+   "previous": {},
+   "product_id": "lumost-2",
+   "values": {
+    "*": 2.0
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {
+    "*": 2.5
+   },
+   "product_id": "lumost-2",
+   "values": {
+    "*": 1.75
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "lumant-0",
+   "values": {
+    "DE": 129.0,
+    "US": 149.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {
+    "*": 36.0
+   },
+   "product_id": "lumant-0",
+   "values": {
+    "*": 44.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {
+    "*": 60.0
+   },
+   "product_id": "lumant-0",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "anc",
+   "previous": {},
+   "product_id": "lumant-0",
+   "values": {
+    "*": 1.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {
+    "DE": 259.0,
+    "US": 339.0
+   },
+   "product_id": "lumant-1",
+   "values": {
+    "DE": 349.0,
+    "US": 379.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {
+    "*": 50.0
+   },
+   "product_id": "lumant-1",
+   "values": {
+    "*": 46.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "lumant-1",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "anc",
+   "previous": {},
+   "product_id": "lumant-1",
+   "values": {
+    "*": 1.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "lumant-2",
+   "values": {
+    "DE": 139.0,
+    "US": 149.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "lumant-2",
+   "values": {
+    "*": 50.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {
+    "*": 24.0
+   },
+   "product_id": "lumant-2",
+   "values": {
+    "*": 12.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "daxix-0",
+   "values": {
+    "DE": 1749.0,
+    "US": 1899.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "daxix-0",
+   "values": {
+    "*": 9.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {
+    "*": 60.0
+   },
+   "product_id": "daxix-0",
+   "values": {
+    "*": 24.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "daxix-1",
+   "values": {
+    "DE": 709.0,
+    "US": 789.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {
+    "*": 9.0
+   },
+   "product_id": "daxix-1",
+   "values": {
+    "*": 12.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "daxix-1",
+   "values": {
+    "*": 1.7
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "daxix-1",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "daxix-2",
+   "values": {
+    "DE": 2399.0,
+    "US": 2499.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "daxix-2",
+   "values": {
+    "*": 19.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "daxix-2",
+   "values": {
+    "*": 2.3
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {
+    "DE": 4249.0,
+    "US": 4599.0
+   },
+   "product_id": "fjorost-0",
+   "values": {
+    "DE": 5349.0,
+    "US": 5549.0
+   }
+  },
+  {
+   "attribute": "range",
+   "previous": {},
+   "product_id": "fjorost-0",
+   "values": {
+    "*": 125.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {
+    "*": 34.9
+   },
+   "product_id": "fjorost-0",
+   "values": {
+    "*": 29.5
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {
+    "*": 60.0
+   },
+   "product_id": "fjorost-0",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "fjorost-1",
+   "values": {
+    "DE": 5049.0,
+    "US": 5149.0
+   }
+  },
+  {
+   "attribute": "range",
+   "previous": {},
+   "product_id": "fjorost-1",
+   "values": {
+    "*": 65.0
+   }
+  },
+  {
+   "attribute": "weight",
+   "previous": {},
+   "product_id": "fjorost-1",
+   "values": {
+    "*": 20.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "fjorost-1",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "orbon-0",
+   "values": {
+    "DE": 869.0,
+    "US": 899.0
+   }
+  },
+  {
+   "attribute": "pressure",
+   "previous": {},
+   "product_id": "orbon-0",
+   "values": {
+    "*": 20.0
+   }
+  },
+  {
+   "attribute": "tank",
+   "previous": {},
+   "product_id": "orbon-0",
+   "values": {
+    "*": 1.8
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "orbon-0",
+   "values": {
+    "*": 12.0
+   }
+  },
+  {
+   "attribute": "pressure",
+   "previous": {},
+   "product_id": "orbon-1",
+   "values": {
+    "*": 20.0
+   }
+  },
+  {
+   "attribute": "tank",
+   "previous": {},
+   "product_id": "orbon-1",
+   "values": {
+    "*": 1.8
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "orbon-1",
+   "values": {
+    "*": 24.0
+   }
+  },
+  {
+   "attribute": "annual_fee",
+   "previous": {},
+   "product_id": "elyost-0",
+   "values": {
+    "DE": 149.0,
+    "US": 550.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {},
+   "product_id": "elyost-0",
+   "values": {
+    "*": 21.99
+   }
+  },
+  {
+   "attribute": "cashback",
+   "previous": {
+    "*": 3.0
+   },
+   "product_id": "elyost-0",
+   "values": {
+    "*": 5.0
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {},
+   "product_id": "elyost-0",
+   "values": {
+    "*": 1.75
+   }
+  },
+  {
+   "attribute": "annual_fee",
+   "previous": {},
+   "product_id": "elyost-1",
+   "values": {
+    "DE": 0.0,
+    "US": 0.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {},
+   "product_id": "elyost-1",
+   "values": {
+    "*": 25.99
+   }
+  },
+  {
+   "attribute": "cashback",
+   "previous": {
+    "*": 1.0
+   },
+   "product_id": "elyost-1",
+   "values": {
+    "*": 5.0
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {
+    "*": 3.0
+   },
+   "product_id": "elyost-1",
+   "values": {
+    "*": 2.5
+   }
+  },
+  {
+   "attribute": "annual_fee",
+   "previous": {},
+   "product_id": "elyost-2",
+   "values": {
+    "DE": 299.0,
+    "US": 695.0
+   }
+  },
+  {
+   "attribute": "apr",
+   "previous": {
+    "*": 13.99
+   },
+   "product_id": "elyost-2",
+   "values": {
+    "*": 17.99
+   }
+  },
+  {
+   "attribute": "cashback",
+   "previous": {},
+   "product_id": "elyost-2",
+   "values": {
+    "*": 4.0
+   }
+  },
+  {
+   "attribute": "foreign_fee",
+   "previous": {},
+   "product_id": "elyost-2",
+   "values": {
+    "*": 0.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {
+    "DE": 209.0,
+    "US": 229.0
+   },
+   "product_id": "venix-0",
+   "values": {
+    "DE": 259.0,
+    "US": 289.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "venix-0",
+   "values": {
+    "*": 28.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {},
+   "product_id": "venix-0",
+   "values": {
+    "*": 12.0
+   }
+  },
+  {
+   "attribute": "anc",
+   "previous": {},
+   "product_id": "venix-0",
+   "values": {
+    "*": 1.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "venix-1",
+   "values": {
+    "DE": 409.0,
+    "US": 419.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {
+    "*": 61.0
+   },
+   "product_id": "venix-1",
+   "values": {
+    "*": 54.0
+   }
+  },
+  {
+   "attribute": "warranty",
+   "previous": {
+    "*": 24.0
+   },
+   "product_id": "venix-1",
+   "values": {
+    "*": 36.0
+   }
+  },
+  {
+   "attribute": "anc",
+   "previous": {},
+   "product_id": "venix-1",
+   "values": {
+    "*": 1.0
+   }
+  },
+  {
+   "attribute": "price",
+   "previous": {},
+   "product_id": "venix-2",
+   "values": {
+    "DE": 189.0,
+    "US": 189.0
+   }
+  },
+  {
+   "attribute": "battery",
+   "previous": {},
+   "product_id": "venix-2",
+   "values": {
+    "*": 40.0
+   }
+  },
+  {
+   "attribute": "anc",
+   "previous": {},
+   "product_id": "venix-2",
+   "values": {
+    "*": 1.0
+   }
+  }
+ ],
+ "products": [
+  {
+   "aliases": [
+    "Fenis E97",
+    "E97"
+   ],
+   "brand": "Fenis",
+   "category": "headphones",
+   "id": "fenis-0",
+   "name": "Fenis E97 Max"
+  },
+  {
+   "aliases": [
+    "Fenis C13",
+    "C13"
+   ],
+   "brand": "Fenis",
+   "category": "headphones",
+   "id": "fenis-1",
+   "name": "Fenis C13 Max"
+  },
+  {
+   "aliases": [
+    "Fenis B47",
+    "B47"
+   ],
+   "brand": "Fenis",
+   "category": "headphones",
+   "id": "fenis-2",
+   "name": "Fenis B47 Max"
+  },
+  {
+   "aliases": [
+    "Lumex D45",
+    "D45"
+   ],
+   "brand": "Lumex",
+   "category": "laptop",
+   "id": "lumex-0",
+   "name": "Lumex D45 Pro"
+  },
+  {
+   "aliases": [
+    "Lumex T56",
+    "T56"
+   ],
+   "brand": "Lumex",
+   "category": "laptop",
+   "id": "lumex-1",
+   "name": "Lumex T56 S"
+  },
+  {
+   "aliases": [
+    "Daxyn K41",
+    "K41"
+   ],
+   "brand": "Daxyn",
+   "category": "ebike",
+   "id": "daxyn-0",
+   "name": "Daxyn K41 Air"
+  },
+  {
+   "aliases": [
+    "Daxyn P38",
+    "P38"
+   ],
+   "brand": "Daxyn",
+   "category": "ebike",
+   "id": "daxyn-1",
+   "name": "Daxyn P38 S"
+  },
+  {
+   "aliases": [
+    "Sonoum C71",
+    "C71"
+   ],
+   "brand": "Sonoum",
+   "category": "coffee_machine",
+   "id": "sonoum-0",
+   "name": "Sonoum C71 Pro"
+  },
+  {
+   "aliases": [
+    "Sonoum G63",
+    "G63"
+   ],
+   "brand": "Sonoum",
+   "category": "coffee_machine",
+   "id": "sonoum-1",
+   "name": "Sonoum G63 Max"
+  },
+  {
+   "aliases": [
+    "Sonoum S41",
+    "S41"
+   ],
+   "brand": "Sonoum",
+   "category": "coffee_machine",
+   "id": "sonoum-2",
+   "name": "Sonoum S41 Pro"
+  },
+  {
+   "aliases": [
+    "Orbum Business"
+   ],
+   "brand": "Orbum",
+   "category": "credit_card",
+   "id": "orbum-0",
+   "name": "Orbum Business Card"
+  },
+  {
+   "aliases": [
+    "Orbum Travel"
+   ],
+   "brand": "Orbum",
+   "category": "credit_card",
+   "id": "orbum-1",
+   "name": "Orbum Travel Card"
+  },
+  {
+   "aliases": [
+    "Orbum Everyday"
+   ],
+   "brand": "Orbum",
+   "category": "credit_card",
+   "id": "orbum-2",
+   "name": "Orbum Everyday Card"
+  },
+  {
+   "aliases": [
+    "M31"
+   ],
+   "brand": "Ulmex",
+   "category": "headphones",
+   "id": "ulmex-0",
+   "name": "Ulmex M31"
+  },
+  {
+   "aliases": [
+    "Ulmex C57",
+    "C57"
+   ],
+   "brand": "Ulmex",
+   "category": "headphones",
+   "id": "ulmex-1",
+   "name": "Ulmex C57 Max"
+  },
+  {
+   "aliases": [
+    "Juno S24",
+    "S24"
+   ],
+   "brand": "Juno",
+   "category": "laptop",
+   "id": "juno-0",
+   "name": "Juno S24 Pro"
+  },
+  {
+   "aliases": [
+    "Juno Z13",
+    "Z13"
+   ],
+   "brand": "Juno",
+   "category": "laptop",
+   "id": "juno-1",
+   "name": "Juno Z13 Pro"
+  },
+  {
+   "aliases": [
+    "Kestant E80",
+    "E80"
+   ],
+   "brand": "Kestant",
+   "category": "ebike",
+   "id": "kestant-0",
+   "name": "Kestant E80 S"
+  },
+  {
+   "aliases": [
+    "T90"
+   ],
+   "brand": "Kestant",
+   "category": "ebike",
+   "id": "kestant-1",
+   "name": "Kestant T90"
+  },
+  {
+   "aliases": [
+    "Marelle T16",
+    "T16"
+   ],
+   "brand": "Marelle",
+   "category": "coffee_machine",
+   "id": "marelle-0",
+   "name": "Marelle T16 S"
+  },
+  {
+   "aliases": [
+    "Marelle P15",
+    "P15"
+   ],
+   "brand": "Marelle",
+   "category": "coffee_machine",
+   "id": "marelle-1",
+   "name": "Marelle P15 Max"
+  },
+  {
+   "aliases": [
+    "Venyn Business"
+   ],
+   "brand": "Venyn",
+   "category": "credit_card",
+   "id": "venyn-0",
+   "name": "Venyn Business Card"
+  },
+  {
+   "aliases": [
+    "Venyn Gold"
+   ],
+   "brand": "Venyn",
+   "category": "credit_card",
+   "id": "venyn-1",
+   "name": "Venyn Gold Card"
+  },
+  {
+   "aliases": [
+    "Venyn Everyday"
+   ],
+   "brand": "Venyn",
+   "category": "credit_card",
+   "id": "venyn-2",
+   "name": "Venyn Everyday Card"
+  },
+  {
+   "aliases": [
+    "Zephelle E29",
+    "E29"
+   ],
+   "brand": "Zephelle",
+   "category": "headphones",
+   "id": "zephelle-0",
+   "name": "Zephelle E29 Max"
+  },
+  {
+   "aliases": [
+    "Zephelle V72",
+    "V72"
+   ],
+   "brand": "Zephelle",
+   "category": "headphones",
+   "id": "zephelle-1",
+   "name": "Zephelle V72 Pro"
+  },
+  {
+   "aliases": [
+    "Zephelle L83",
+    "L83"
+   ],
+   "brand": "Zephelle",
+   "category": "headphones",
+   "id": "zephelle-2",
+   "name": "Zephelle L83 Max"
+  },
+  {
+   "aliases": [
+    "Junon V36",
+    "V36"
+   ],
+   "brand": "Junon",
+   "category": "laptop",
+   "id": "junon-0",
+   "name": "Junon V36 S"
+  },
+  {
+   "aliases": [
+    "Junon E87",
+    "E87"
+   ],
+   "brand": "Junon",
+   "category": "laptop",
+   "id": "junon-1",
+   "name": "Junon E87 Max"
+  },
+  {
+   "aliases": [
+    "Junon F89",
+    "F89"
+   ],
+   "brand": "Junon",
+   "category": "laptop",
+   "id": "junon-2",
+   "name": "Junon F89 Pro"
+  },
+  {
+   "aliases": [
+    "Torex V42",
+    "V42"
+   ],
+   "brand": "Torex",
+   "category": "ebike",
+   "id": "torex-0",
+   "name": "Torex V42 Pro"
+  },
+  {
+   "aliases": [
+    "Torex V19",
+    "V19"
+   ],
+   "brand": "Torex",
+   "category": "ebike",
+   "id": "torex-1",
+   "name": "Torex V19 Air"
+  },
+  {
+   "aliases": [
+    "Elyant N25",
+    "N25"
+   ],
+   "brand": "Elyant",
+   "category": "coffee_machine",
+   "id": "elyant-0",
+   "name": "Elyant N25 S"
+  },
+  {
+   "aliases": [
+    "Elyant A30",
+    "A30"
+   ],
+   "brand": "Elyant",
+   "category": "coffee_machine",
+   "id": "elyant-1",
+   "name": "Elyant A30 Max"
+  },
+  {
+   "aliases": [
+    "Elyant A27",
+    "A27"
+   ],
+   "brand": "Elyant",
+   "category": "coffee_machine",
+   "id": "elyant-2",
+   "name": "Elyant A27 Pro"
+  },
+  {
+   "aliases": [
+    "Fenost Rewards"
+   ],
+   "brand": "Fenost",
+   "category": "credit_card",
+   "id": "fenost-0",
+   "name": "Fenost Rewards Card"
+  },
+  {
+   "aliases": [
+    "Fenost Gold"
+   ],
+   "brand": "Fenost",
+   "category": "credit_card",
+   "id": "fenost-1",
+   "name": "Fenost Gold Card"
+  },
+  {
+   "aliases": [
+    "Fenost Student"
+   ],
+   "brand": "Fenost",
+   "category": "credit_card",
+   "id": "fenost-2",
+   "name": "Fenost Student Card"
+  },
+  {
+   "aliases": [
+    "Q71"
+   ],
+   "brand": "Pellova",
+   "category": "headphones",
+   "id": "pellova-0",
+   "name": "Pellova Q71"
+  },
+  {
+   "aliases": [
+    "Pellova N86",
+    "N86"
+   ],
+   "brand": "Pellova",
+   "category": "headphones",
+   "id": "pellova-1",
+   "name": "Pellova N86 Max"
+  },
+  {
+   "aliases": [
+    "Pellova B66",
+    "B66"
+   ],
+   "brand": "Pellova",
+   "category": "headphones",
+   "id": "pellova-2",
+   "name": "Pellova B66 Pro"
+  },
+  {
+   "aliases": [
+    "Sonoo H47",
+    "H47"
+   ],
+   "brand": "Sonoo",
+   "category": "laptop",
+   "id": "sonoo-0",
+   "name": "Sonoo H47 Air"
+  },
+  {
+   "aliases": [
+    "N77"
+   ],
+   "brand": "Sonoo",
+   "category": "laptop",
+   "id": "sonoo-1",
+   "name": "Sonoo N77"
+  },
+  {
+   "aliases": [
+    "Venant P71",
+    "P71"
+   ],
+   "brand": "Venant",
+   "category": "ebike",
+   "id": "venant-0",
+   "name": "Venant P71 Air"
+  },
+  {
+   "aliases": [
+    "Venant E64",
+    "E64"
+   ],
+   "brand": "Venant",
+   "category": "ebike",
+   "id": "venant-1",
+   "name": "Venant E64 S"
+  },
+  {
+   "aliases": [
+    "Venant G79",
+    "G79"
+   ],
+   "brand": "Venant",
+   "category": "ebike",
+   "id": "venant-2",
+   "name": "Venant G79 S"
+  },
+  {
+   "aliases": [
+    "C34"
+   ],
+   "brand": "Ulmis",
+   "category": "coffee_machine",
+   "id": "ulmis-0",
+   "name": "Ulmis C34"
+  },
+  {
+   "aliases": [
+    "M96"
+   ],
+   "brand": "Ulmis",
+   "category": "coffee_machine",
+   "id": "ulmis-1",
+   "name": "Ulmis M96"
+  },
+  {
+   "aliases": [
+    "Ulmis R13",
+    "R13"
+   ],
+   "brand": "Ulmis",
+   "category": "coffee_machine",
+   "id": "ulmis-2",
+   "name": "Ulmis R13 Pro"
+  },
+  {
+   "aliases": [
+    "Pellari Business"
+   ],
+   "brand": "Pellari",
+   "category": "credit_card",
+   "id": "pellari-0",
+   "name": "Pellari Business Card"
+  },
+  {
+   "aliases": [
+    "Pellari Travel"
+   ],
+   "brand": "Pellari",
+   "category": "credit_card",
+   "id": "pellari-1",
+   "name": "Pellari Travel Card"
+  },
+  {
+   "aliases": [
+    "Pellari Student"
+   ],
+   "brand": "Pellari",
+   "category": "credit_card",
+   "id": "pellari-2",
+   "name": "Pellari Student Card"
+  },
+  {
+   "aliases": [
+    "Wexum G29",
+    "G29"
+   ],
+   "brand": "Wexum",
+   "category": "headphones",
+   "id": "wexum-0",
+   "name": "Wexum G29 S"
+  },
+  {
+   "aliases": [
+    "Wexum S32",
+    "S32"
+   ],
+   "brand": "Wexum",
+   "category": "headphones",
+   "id": "wexum-1",
+   "name": "Wexum S32 Air"
+  },
+  {
+   "aliases": [
+    "Z29"
+   ],
+   "brand": "Venost",
+   "category": "laptop",
+   "id": "venost-0",
+   "name": "Venost Z29"
+  },
+  {
+   "aliases": [
+    "Venost K80",
+    "K80"
+   ],
+   "brand": "Venost",
+   "category": "laptop",
+   "id": "venost-1",
+   "name": "Venost K80 Max"
+  },
+  {
+   "aliases": [
+    "Venost D26",
+    "D26"
+   ],
+   "brand": "Venost",
+   "category": "laptop",
+   "id": "venost-2",
+   "name": "Venost D26 Air"
+  },
+  {
+   "aliases": [
+    "Aurelle Z45",
+    "Z45"
+   ],
+   "brand": "Aurelle",
+   "category": "ebike",
+   "id": "aurelle-0",
+   "name": "Aurelle Z45 S"
+  },
+  {
+   "aliases": [
+    "Aurelle T80",
+    "T80"
+   ],
+   "brand": "Aurelle",
+   "category": "ebike",
+   "id": "aurelle-1",
+   "name": "Aurelle T80 Pro"
+  },
+  {
+   "aliases": [
+    "Briois C38",
+    "C38"
+   ],
+   "brand": "Briois",
+   "category": "coffee_machine",
+   "id": "briois-0",
+   "name": "Briois C38 S"
+  },
+  {
+   "aliases": [
+    "X93"
+   ],
+   "brand": "Briois",
+   "category": "coffee_machine",
+   "id": "briois-1",
+   "name": "Briois X93"
+  },
+  {
+   "aliases": [
+    "Briois F13",
+    "F13"
+   ],
+   "brand": "Briois",
+   "category": "coffee_machine",
+   "id": "briois-2",
+   "name": "Briois F13 Pro"
+  },
+  {
+   "aliases": [
+    "Brioon Gold"
+   ],
+   "brand": "Brioon",
+   "category": "credit_card",
+   "id": "brioon-0",
+   "name": "Brioon Gold Card"
+  },
+  {
+   "aliases": [
+    "Brioon Platinum"
+   ],
+   "brand": "Brioon",
+   "category": "credit_card",
+   "id": "brioon-1",
+   "name": "Brioon Platinum Card"
+  },
+  {
+   "aliases": [
+    "Brioon Everyday"
+   ],
+   "brand": "Brioon",
+   "category": "credit_card",
+   "id": "brioon-2",
+   "name": "Brioon Everyday Card"
+  },
+  {
+   "aliases": [
+    "Talant D11",
+    "D11"
+   ],
+   "brand": "Talant",
+   "category": "headphones",
+   "id": "talant-0",
+   "name": "Talant D11 Pro"
+  },
+  {
+   "aliases": [
+    "Talant V24",
+    "V24"
+   ],
+   "brand": "Talant",
+   "category": "headphones",
+   "id": "talant-1",
+   "name": "Talant V24 Air"
+  },
+  {
+   "aliases": [
+    "Quinis A79",
+    "A79"
+   ],
+   "brand": "Quinis",
+   "category": "laptop",
+   "id": "quinis-0",
+   "name": "Quinis A79 Max"
+  },
+  {
+   "aliases": [
+    "Quinis R39",
+    "R39"
+   ],
+   "brand": "Quinis",
+   "category": "laptop",
+   "id": "quinis-1",
+   "name": "Quinis R39 Pro"
+  },
+  {
+   "aliases": [
+    "C61"
+   ],
+   "brand": "Silon",
+   "category": "ebike",
+   "id": "silon-0",
+   "name": "Silon C61"
+  },
+  {
+   "aliases": [
+    "B12"
+   ],
+   "brand": "Silon",
+   "category": "ebike",
+   "id": "silon-1",
+   "name": "Silon B12"
+  },
+  {
+   "aliases": [
+    "Pelleta A76",
+    "A76"
+   ],
+   "brand": "Pelleta",
+   "category": "coffee_machine",
+   "id": "pelleta-0",
+   "name": "Pelleta A76 Air"
+  },
+  {
+   "aliases": [
+    "Pelleta Q31",
+    "Q31"
+   ],
+   "brand": "Pelleta",
+   "category": "coffee_machine",
+   "id": "pelleta-1",
+   "name": "Pelleta Q31 Pro"
+  },
+  {
+   "aliases": [
+    "Lumost Student"
+   ],
+   "brand": "Lumost",
+   "category": "credit_card",
+   "id": "lumost-0",
+   "name": "Lumost Student Card"
+  },
+  {
+   "aliases": [
+    "Lumost Platinum"
+   ],
+   "brand": "Lumost",
+   "category": "credit_card",
+   "id": "lumost-1",
+   "name": "Lumost Platinum Card"
+  },
+  {
+   "aliases": [
+    "Lumost Gold"
+   ],
+   "brand": "Lumost",
+   "category": "credit_card",
+   "id": "lumost-2",
+   "name": "Lumost Gold Card"
+  },
+  {
+   "aliases": [
+    "Lumant K14",
+    "K14"
+   ],
+   "brand": "Lumant",
+   "category": "headphones",
+   "id": "lumant-0",
+   "name": "Lumant K14 Pro"
+  },
+  {
+   "aliases": [
+    "Lumant B25",
+    "B25"
+   ],
+   "brand": "Lumant",
+   "category": "headphones",
+   "id": "lumant-1",
+   "name": "Lumant B25 S"
+  },
+  {
+   "aliases": [
+    "Lumant P65",
+    "P65"
+   ],
+   "brand": "Lumant",
+   "category": "headphones",
+   "id": "lumant-2",
+   "name": "Lumant P65 Air"
+  },
+  {
+   "aliases": [
+    "Daxix T45",
+    "T45"
+   ],
+   "brand": "Daxix",
+   "category": "laptop",
+   "id": "daxix-0",
+   "name": "Daxix T45 Max"
+  },
+  {
+   "aliases": [
+    "Daxix Z37",
+    "Z37"
+   ],
+   "brand": "Daxix",
+   "category": "laptop",
+   "id": "daxix-1",
+   "name": "Daxix Z37 Pro"
+  },
+  {
+   "aliases": [
+    "Q27"
+   ],
+   "brand": "Daxix",
+   "category": "laptop",
+   "id": "daxix-2",
+   "name": "Daxix Q27"
+  },
+  {
+   "aliases": [
+    "Fjorost M95",
+    "M95"
+   ],
+   "brand": "Fjorost",
+   "category": "ebike",
+   "id": "fjorost-0",
+   "name": "Fjorost M95 Pro"
+  },
+  {
+   "aliases": [
+    "T44"
+   ],
+   "brand": "Fjorost",
+   "category": "ebike",
+   "id": "fjorost-1",
+   "name": "Fjorost T44"
+  },
+  {
+   "aliases": [
+    "D18"
+   ],
+   "brand": "Orbon",
+   "category": "coffee_machine",
+   "id": "orbon-0",
+   "name": "Orbon D18"
+  },
+  {
+   "aliases": [
+    "Orbon B35",
+    "B35"
+   ],
+   "brand": "Orbon",
+   "category": "coffee_machine",
+   "id": "orbon-1",
+   "name": "Orbon B35 Air"
+  },
+  {
+   "aliases": [
+    "Elyost Rewards"
+   ],
+   "brand": "Elyost",
+   "category": "credit_card",
+   "id": "elyost-0",
+   "name": "Elyost Rewards Card"
+  },
+  {
+   "aliases": [
+    "Elyost Travel"
+   ],
+   "brand": "Elyost",
+   "category": "credit_card",
+   "id": "elyost-1",
+   "name": "Elyost Travel Card"
+  },
+  {
+   "aliases": [
+    "Elyost Business"
+   ],
+   "brand": "Elyost",
+   "category": "credit_card",
+   "id": "elyost-2",
+   "name": "Elyost Business Card"
+  },
+  {
+   "aliases": [
+    "Venix N91",
+    "N91"
+   ],
+   "brand": "Venix",
+   "category": "headphones",
+   "id": "venix-0",
+   "name": "Venix N91 Pro"
+  },
+  {
+   "aliases": [
+    "Venix P83",
+    "P83"
+   ],
+   "brand": "Venix",
+   "category": "headphones",
+   "id": "venix-1",
+   "name": "Venix P83 S"
+  },
+  {
+   "aliases": [
+    "Venix R78",
+    "R78"
+   ],
+   "brand": "Venix",
+   "category": "headphones",
+   "id": "venix-2",
+   "name": "Venix R78 S"
+  }
+ ]
+}

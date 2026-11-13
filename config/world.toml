@@ -1,0 +1,63 @@
+# The dev world. Drives src/accuracy/world only; the pipeline never reads this file.
+seed = 11
+templates = "dev"
+brands = 36
+products_per_brand = [2, 3]
+categories = ["headphones", "laptop", "ebike", "coffee_machine", "credit_card"]
+vault_coverage = 0.88        # share of facts the brand has verified in its vault
+vault_history = 0.8          # share of changed facts whose old value the vault also records
+change_share = 0.35          # share of facts that changed in the last 400 days
+prompts_train = 700          # prompts whose answers the annotators label
+prompts_eval = 320           # prompts the designs are measured on
+german_share = 0.3           # share of de-DE prompts in the eval set
+german_share_train = 0.1     # annotators mostly read English
+en_de_share = 0.12           # English prompts asked from Germany (euro prices)
+weeks = 8
+annotator_noise = 0.05       # share of labels an annotator gets wrong
+reviewer_noise = 0.01        # second-pass reviewers, for claims a design sends to people
+spam_share = 0.15            # products with a page written to mislead AI assistants
+fix_success = { brand = 1.0, review = 0.55, forum = 0.4, retail = 0.6, spam = 0.1, feed = 0.6 }
+
+[engines.chat]
+k = 4
+memory = 0.30
+invent = 0.12
+cutoff_day = -150
+cite_cause = 0.65
+cite_other = 0.5
+dollar_in_en_de = 0.15
+style = { exact = 0.55, approx = 0.3, bound = 0.15 }
+weights = { official = 0.8, review = 1.2, forum = 1.3, retail = 0.6, spam = 0.9 }
+
+[engines.overview]
+k = 5
+memory = 0.12
+invent = 0.08
+cutoff_day = -60
+cite_cause = 0.8
+cite_other = 0.6
+dollar_in_en_de = 0.05
+style = { exact = 0.7, approx = 0.2, bound = 0.1 }
+weights = { official = 1.4, review = 1.0, forum = 0.7, retail = 0.8, spam = 0.7 }
+
+[engines.answer]
+k = 5
+memory = 0.08
+invent = 0.08
+cutoff_day = -30
+cite_cause = 0.9
+cite_other = 0.7
+dollar_in_en_de = 0.1
+style = { exact = 0.6, approx = 0.25, bound = 0.15 }
+weights = { official = 1.0, review = 1.3, forum = 1.0, retail = 0.7, spam = 1.0 }
+
+[engines.shopping]
+k = 4
+memory = 0.2
+invent = 0.1
+cutoff_day = -240
+cite_cause = 0.5
+cite_other = 0.4
+dollar_in_en_de = 0.2
+style = { exact = 0.5, approx = 0.2, bound = 0.3 }
+weights = { official = 0.7, review = 0.8, forum = 0.6, retail = 1.6, spam = 1.1 }
